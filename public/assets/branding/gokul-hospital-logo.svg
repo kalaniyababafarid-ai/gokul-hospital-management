@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140">
+  <rect width="560" height="140" rx="16" fill="#FFFFFF"/>
+  <!-- Outer Shield & Emblem Ring -->
+  <g transform="translate(18, 14)">
+    <circle cx="56" cy="56" r="52" fill="#EAF5FC" stroke="#123B67" stroke-width="4"/>
+    <circle cx="56" cy="56" r="44" fill="#FFFFFF" stroke="#1685B8" stroke-width="2" stroke-dasharray="5 3"/>
+    <!-- Medical Shield Base -->
+    <path d="M56 18 L86 30 V54 C86 76 72 91 56 98 C40 91 26 76 26 54 V30 Z" fill="#123B67"/>
+    <!-- Healing Cross inside Shield -->
+    <path d="M56 32 V76 M34 54 H78" stroke="#19B7A5" stroke-width="11" stroke-linecap="round"/>
+    <!-- ECG Pulse Line -->
+    <path d="M30 54 H44 L49 41 L56 68 L63 46 L67 54 H82" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Caring Arc at Bottom -->
+    <path d="M32 82 Q56 98 80 82" fill="none" stroke="#19B7A5" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <!-- Hospital Name & Typography -->
+  <text x="144" y="66" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="800" fill="#123B67" letter-spacing="0.5">GOKUL HOSPITAL</text>
+  <rect x="144" y="78" width="388" height="3" rx="1.5" fill="#19B7A5"/>
+  <text x="144" y="103" font-family="'Public Sans', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#1685B8" letter-spacing="2.2">MULTI-SPECIALTY HEALTHCARE &amp; DIAGNOSTICS</text>
+</svg>

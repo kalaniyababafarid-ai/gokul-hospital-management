@@ -1,0 +1,6 @@
+{
+  "name": "Gokul Hospital | Multi-Specialty Hospital & Management System",
+  "description": "Official full-stack multi-specialty hospital website and hospital management system for Gokul Hospital featuring online appointment booking, doctor directory, patient portal, doctor portal, receptionist console, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

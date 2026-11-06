@@ -1,0 +1,1039 @@
+# ULTIMATE MASTER PROMPT — GOKUL HOSPITAL
+# COMPLETE WEBSITE REDESIGN, FULL-STACK DEVELOPMENT, APPOINTMENT SYSTEM, DATABASE INTEGRATION, TESTING & ERROR FIXING
+
+Act as a world-class professional software development company consisting of senior frontend developers, backend developers, UI/UX designers, database architects, Firebase engineers, cybersecurity experts, QA engineers, and DevOps engineers.
+
+You are continuing my EXISTING Google AI Studio project for:
+
+# GOKUL HOSPITAL
+### Multi-Specialty Hospital & Healthcare Management System
+
+I have already generated a basic version of the website, but it is not professional enough and some features are not working.
+
+I want you to upgrade the existing website into an exceptionally professional, premium, modern, beautiful, fully functional, complete FULL-STACK HOSPITAL WEBSITE.
+
+IMPORTANT: DO NOT create a separate new project. DO NOT delete existing working functionality. Inspect the existing project files and improve the current application.
+
+Do not just suggest changes. Implement the changes directly inside my existing project.
+
+==================================================
+1. FIRST TASK — INSPECT THE EXISTING PROJECT
+==================================================
+
+Before making changes, carefully inspect:
+
+- Entire existing source code.
+- Existing React components.
+- Frontend pages.
+- Routing configuration.
+- Header and navigation.
+- Appointment page.
+- Backend server.
+- API endpoints.
+- Firebase configuration.
+- Firestore database.
+- Authentication.
+- Existing CSS and Tailwind configuration.
+- Existing images and assets.
+- Existing build and deployment configuration.
+
+Identify all problems and incomplete features.
+
+VERY IMPORTANT CURRENT BUG:
+
+When I click the Book Appointment button or Appointment navigation link, the website opens:
+
+/appointment
+
+But instead of showing an appointment booking form, it displays:
+
+404 — PAGE NOT FOUND.
+
+FIX THIS FIRST.
+
+Inspect the actual cause:
+- Missing appointment page.
+- Missing route configuration.
+- Incorrect route name.
+- Incorrect navigation link.
+- React Router configuration problem.
+- Backend API versus frontend route confusion.
+- Deployment rewrite or direct URL refresh issue.
+
+Do not simply hide the 404 screen.
+
+Create the actual appointment page and correctly connect its frontend, backend, and database.
+
+Make sure these actions all work:
+
+1. Header Appointment link.
+2. Header Book Appointment button.
+3. Homepage Book Appointment button.
+4. Doctor Profile Book Appointment button.
+5. Department appointment link.
+6. Patient Dashboard booking link.
+7. Directly opening /appointment in the browser.
+8. Refreshing the /appointment page.
+
+All appointment links must open the same working appointment booking page.
+
+If the website uses a different existing route convention, fix the route mappings consistently without breaking other pages.
+
+==================================================
+2. COMPLETE WEBSITE COLOR REDESIGN
+==================================================
+
+I DO NOT LIKE PINK, PURPLE, VIOLET OR MAGENTA COLORS.
+
+Remove these colors completely from the entire Gokul Hospital application.
+
+This instruction applies to:
+- Homepage.
+- Header.
+- Footer.
+- Buttons.
+- Appointment page.
+- Login.
+- Registration.
+- Patient Dashboard.
+- Doctor Dashboard.
+- Admin Dashboard.
+- Receptionist Dashboard.
+- All cards.
+- All forms.
+- All charts.
+- All navigation menus.
+- Loading screens.
+- Notifications.
+- Badges.
+- Hover effects.
+- Gradients.
+- Shadows.
+- Borders.
+- Mobile menus.
+
+USE ONLY A PROFESSIONAL BLUE, WHITE AND TEAL HEALTHCARE COLOR SYSTEM.
+
+BRAND COLOR PALETTE:
+
+Primary Navy Blue: #123B67
+
+Royal Medical Blue: #167DB5
+
+Professional Blue: #1685B8
+
+Healthcare Teal: #19B7A5
+
+Light Medical Blue: #EAF5FC
+
+Very Light Background: #F5F9FC
+
+White: #FFFFFF
+
+Dark Text: #243447
+
+Use elegant blue-to-teal gradients where appropriate.
+
+Create one central global theme and reusable design tokens.
+
+Update the existing CSS variables, Tailwind theme, reusable components, and individual pages.
+
+Do not leave old purple or pink styles hidden in other screens.
+
+The final result must have a consistent blue-and-white healthcare identity.
+
+==================================================
+3. HIGH-END PROFESSIONAL DESIGN
+==================================================
+
+Transform the basic website into a premium hospital website.
+
+I want a design that looks like a modern international multi-specialty hospital website.
+
+DESIGN REQUIREMENTS:
+
+- Premium medical website design.
+- Modern 3D-inspired UI.
+- Clean and elegant sections.
+- High-quality medical images.
+- Professional medical illustrations.
+- Beautiful cards.
+- Consistent spacing.
+- Smooth animations.
+- Elegant shadows.
+- Modern typography.
+- Beautiful gradients.
+- Rounded buttons.
+- Professional iconography.
+- Excellent page hierarchy.
+- Clean layouts.
+- Fast loading.
+- Responsive components.
+
+Do not overcrowd the website.
+
+Avoid unnecessary animations, excessive gradients, and decorative elements that make the site look cheap.
+
+Use a consistent professional component library across the entire project.
+
+==================================================
+4. HEADER — KEEP ITS GOOD STRUCTURE
+==================================================
+
+I LIKE THE CURRENT HEADER STRUCTURE.
+
+Preserve its familiar layout, Gokul Hospital logo position, navigation hierarchy, and Book Appointment button.
+
+Improve the header visually without unnecessarily redesigning its entire structure.
+
+HEADER REQUIREMENTS:
+
+- Gokul Hospital logo.
+- Hospital name.
+- Home.
+- Departments.
+- Our Doctors.
+- Medical Services.
+- About Us.
+- Facilities.
+- Health Packages.
+- Health Blog.
+- Contact Us.
+- Search.
+- Patient Login.
+- Register.
+- Appointment.
+- Book Appointment CTA.
+
+TOP INFORMATION BAR:
+
+- Reception contact.
+- Emergency contact.
+- Email.
+- Opening hours.
+
+Remove fake demo phone numbers from public-facing production content. Use clearly marked editable placeholders until real hospital details are configured.
+
+Add:
+- Smooth hover transitions.
+- Attractive active navigation states.
+- Sticky header if appropriate.
+- Mobile hamburger menu.
+- Responsive dropdown menus.
+- Proper keyboard navigation.
+
+The Book Appointment button must always navigate to the actual working appointment page.
+
+==================================================
+5. PROFESSIONAL HOMEPAGE
+==================================================
+
+Redesign the complete Gokul Hospital homepage.
+
+HERO SECTION:
+
+Use my existing Gokul Hospital hospital hero image if it is already available in the project assets.
+
+If built-in image generation is available, generate or create additional matching medical visuals for the remaining sections.
+
+The hero section must contain:
+
+- Professional hospital banner.
+- GOKUL HOSPITAL branding.
+- Headline: Your Health, Our Priority.
+- Supporting healthcare introduction.
+- Book Appointment button.
+- Find a Doctor button.
+- Emergency contact option.
+
+Create the following sections:
+
+1. Hero Banner.
+2. About Gokul Hospital.
+3. Our Healthcare Mission.
+4. Medical Departments.
+5. Our Expert Doctors.
+6. Medical Services.
+7. Hospital Facilities.
+8. Why Choose Gokul Hospital?
+9. Appointment Booking CTA.
+10. Emergency Care.
+11. Health Packages.
+12. Patient Testimonials.
+13. Latest Health Articles.
+14. Frequently Asked Questions.
+15. Contact Section.
+16. Professional Footer.
+
+Use modern layouts, clean content, relevant images, and appropriate animations.
+
+Do not display invented hospital statistics or unverified medical achievements.
+
+==================================================
+6. COMPLETE WORKING APPOINTMENT BOOKING PAGE
+==================================================
+
+THIS IS MY HIGHEST PRIORITY.
+
+The current /appointment URL gives a 404 error.
+
+Replace that broken experience with a beautiful, complete, working Gokul Hospital appointment booking page.
+
+Create a premium appointment interface with:
+
+- Professional heading.
+- Hospital branding.
+- Progress indicator.
+- Step-by-step booking.
+- Modern form design.
+- Professional doctor cards.
+- Availability calendar.
+- Time-slot selection.
+- Booking summary.
+- Confirmation screen.
+
+APPOINTMENT BOOKING PROCESS:
+
+STEP 1 — SELECT DEPARTMENT
+
+Allow patients to choose:
+- Cardiology.
+- Neurology.
+- Orthopedics.
+- Pediatrics.
+- Gynecology.
+- Dermatology.
+- General Medicine.
+- General Surgery.
+- Dentistry.
+- Other active hospital departments.
+
+Retrieve departments from the database.
+
+STEP 2 — SELECT DOCTOR
+
+Display only the doctors associated with the selected department.
+
+Doctor details:
+- Doctor photograph.
+- Doctor name.
+- Specialization.
+- Qualification.
+- Experience.
+- Consultation fee.
+- Availability.
+- View Profile.
+
+Retrieve actual doctor information from the database.
+
+STEP 3 — SELECT APPOINTMENT DATE
+
+Build a professional date picker.
+
+Allow patients to select only valid booking dates according to doctor availability and hospital scheduling rules.
+
+STEP 4 — SELECT AVAILABLE TIME
+
+Display actual available slots for the selected doctor.
+
+Retrieve availability from the database.
+
+Do not show fake or unavailable slots as bookable.
+
+STEP 5 — PATIENT DETAILS
+
+Create the following form:
+
+- Patient Full Name.
+- Email Address.
+- Mobile Number.
+- Date of Birth if required.
+- Gender if required.
+- Appointment Reason.
+- Additional Notes (optional).
+- Consent to Privacy Policy.
+
+Validate every field.
+
+STEP 6 — BOOKING SUMMARY
+
+Display:
+
+- Hospital Name.
+- Department.
+- Doctor Name.
+- Appointment Date.
+- Appointment Time.
+- Consultation Fee.
+- Patient Information.
+
+STEP 7 — CONFIRM APPOINTMENT
+
+When the patient confirms:
+
+1. Send a request to the backend.
+2. Validate the user.
+3. Validate the selected doctor.
+4. Validate the selected time slot.
+5. Recheck the doctor's availability.
+6. Prevent duplicate booking.
+7. Save the appointment to Firestore.
+8. Generate a unique appointment ID.
+9. Return the verified booking status.
+10. Display a professional confirmation page.
+
+BOOKING STATUS:
+
+- Pending.
+- Confirmed.
+- Cancelled.
+- Completed.
+- No-show.
+
+Show a clear message such as:
+
+"Your appointment request has been successfully submitted."
+
+Only show success after the backend confirms that the database write has succeeded.
+
+If an administrator must approve the appointment, clearly show Pending Confirmation.
+
+If the user is not logged in, offer Login and Register while preserving the intended booking details. Guest booking may also be supported when enabled by the administrator.
+
+==================================================
+7. REAL BACKEND AND DATABASE CONNECTION FOR BOOKING
+==================================================
+
+Connect the entire appointment workflow to the actual backend and database.
+
+Use the existing configured database if it is already working.
+
+If the project uses Firebase, use Firebase Authentication and Cloud Firestore.
+
+Create appropriate backend functionality for:
+
+- Fetching departments.
+- Fetching doctors.
+- Fetching doctor availability.
+- Creating appointments.
+- Fetching appointments.
+- Cancelling appointments.
+- Rescheduling appointments.
+- Confirming appointments.
+- Updating appointment status.
+
+Suggested API structure:
+
+GET /api/departments
+
+GET /api/doctors
+
+GET /api/doctors/:doctorId/availability
+
+POST /api/appointments
+
+GET /api/appointments/my
+
+GET /api/appointments/:appointmentId
+
+POST /api/appointments/:appointmentId/cancel
+
+POST /api/appointments/:appointmentId/reschedule
+
+These are implementation targets; adapt them to the current backend architecture.
+
+BOOKING DATABASE STRUCTURE:
+
+Store appropriate appointment information:
+
+- appointmentId.
+- patientId.
+- doctorId.
+- departmentId.
+- appointmentDate.
+- appointmentTime.
+- appointmentReason.
+- appointmentStatus.
+- createdAt.
+- updatedAt.
+- consultationFee.
+- paymentStatus where payment is configured.
+
+SECURITY AND BOOKING VALIDATION:
+
+- Prevent duplicate doctor/time bookings.
+- Use concurrency-safe Firestore transactions or an equivalent reliable locking approach.
+- Perform final availability validation on the server.
+- Protect appointment APIs.
+- Do not trust client-submitted fees or booking statuses.
+- Restrict access to patient-specific appointments.
+- Use the Asia/Kolkata timezone consistently.
+- Prevent duplicate submissions.
+- Enforce cancellation and rescheduling policies.
+
+If the database is not configured, do not pretend to save appointments. Finish the UI and backend integration structure, request the required configuration, and clearly explain the remaining step.
+
+==================================================
+8. COMPLETE PATIENT DASHBOARD
+==================================================
+
+Improve and connect the patient dashboard.
+
+Create:
+
+- Overview.
+- My Profile.
+- Edit Profile.
+- Book Appointment.
+- My Appointments.
+- Upcoming Appointments.
+- Past Appointments.
+- Appointment Cancellation.
+- Appointment Rescheduling.
+- Medical Records.
+- Lab Reports.
+- Prescriptions.
+- Notifications.
+- Privacy Settings.
+- Password Management.
+- Logout.
+
+Use attractive blue-and-white dashboard cards.
+
+Connect dashboard information to real database records.
+
+Patients must only access their own authorized information.
+
+==================================================
+9. COMPLETE DOCTOR DASHBOARD
+==================================================
+
+Create a professional doctor portal.
+
+Features:
+
+- Overview.
+- My Profile.
+- Manage Availability.
+- My Schedule.
+- Today's Appointments.
+- Upcoming Appointments.
+- Patient Information.
+- Appointment Status.
+- Appointment History.
+- Authorized Medical Records.
+- Prescriptions.
+- Notifications.
+- Logout.
+
+Connect all appropriate operations to the database.
+
+Restrict doctors to their assigned appointments and authorized patient records.
+
+==================================================
+10. COMPLETE ADMIN DASHBOARD
+==================================================
+
+Build a premium, professional Gokul Hospital Administration Panel.
+
+Use the same blue-and-white theme.
+
+ADMIN FEATURES:
+
+1. Dashboard Overview.
+2. Patient Management.
+3. Doctor Management.
+4. Department Management.
+5. Appointment Management.
+6. Schedule Management.
+7. Availability Management.
+8. Receptionist Management.
+9. Staff Management.
+10. Services Management.
+11. Facilities Management.
+12. Health Packages.
+13. Medical Records Permissions.
+14. Inquiries.
+15. Testimonials.
+16. Blog Management.
+17. Gallery Management.
+18. Website Content Management.
+19. Hospital Settings.
+20. Notifications.
+21. Reports.
+22. Analytics.
+23. Security Settings.
+24. Roles and Permissions.
+25. Audit Logs.
+
+ADMIN DASHBOARD STATISTICS:
+
+- Total Patients.
+- Total Doctors.
+- Total Appointments.
+- Today's Appointments.
+- Pending Appointments.
+- Confirmed Appointments.
+- Completed Appointments.
+- Cancelled Appointments.
+
+All statistics must be retrieved from the real database.
+
+Provide complete CRUD operations for the necessary modules.
+
+Secure administrator creation and access using server-side authorization. Never allow public registration to create an administrator.
+
+==================================================
+11. RECEPTIONIST DASHBOARD
+==================================================
+
+Build a separate receptionist portal.
+
+Features:
+
+- Daily Appointment Overview.
+- Patient Search.
+- Patient Registration (authorized).
+- Book Appointments.
+- Confirm Appointments.
+- Reschedule Appointments.
+- Cancel Appointments.
+- Appointment History.
+- Patient Inquiries.
+- Notifications.
+
+Use role-based permissions.
+
+==================================================
+12. PROFESSIONAL WEBSITE IMAGES
+==================================================
+
+IMPORTANT: MY WEBSITE MUST NOT LOOK EMPTY OR BASIC.
+
+Add beautiful, high-quality, relevant medical images wherever images genuinely improve the page.
+
+Reuse the existing hospital hero image when available.
+
+Use built-in image-generation functionality if available to create original, visually consistent website assets.
+
+Otherwise use appropriate licensed images and store or optimize them as project assets.
+
+CREATE OR SELECT RELEVANT VISUALS FOR:
+
+HOMEPAGE:
+- Modern hospital exterior.
+- Hospital reception.
+- Friendly Indian medical team.
+- Medical technology.
+
+ABOUT PAGE:
+- Modern hospital environment.
+- Healthcare professionals.
+- Patient care environment.
+
+DEPARTMENTS PAGE:
+- Cardiology illustration.
+- Neurology illustration.
+- Orthopedics illustration.
+- Pediatrics illustration.
+- Gynecology illustration.
+- Dermatology illustration.
+- General Medicine illustration.
+
+DOCTORS PAGE:
+- Professional doctor portraits.
+- Consistent image dimensions.
+- Clearly marked demonstration profiles until verified doctors are added.
+
+FACILITIES PAGE:
+- Modern patient rooms.
+- Diagnostic equipment.
+- Laboratory environment.
+- Surgical facility visuals, accurately representing available facilities.
+
+SERVICES PAGE:
+- Medical consultation.
+- Emergency care.
+- Diagnostic services.
+- Patient support.
+
+HEALTH PACKAGES PAGE:
+- Professional health checkup illustrations.
+- Laboratory-related imagery.
+- Health package cards.
+
+BLOG PAGE:
+- Relevant medical article thumbnails.
+- Healthcare illustrations.
+- Health awareness imagery.
+
+GALLERY:
+- Hospital facilities.
+- Reception environment.
+- Medical equipment.
+- Verified hospital photographs when supplied.
+
+IMAGE REQUIREMENTS:
+
+- Consistent blue-and-white healthcare aesthetic.
+- Professional photographic quality.
+- Correct aspect ratios.
+- Responsive images.
+- Optimized loading.
+- Lazy loading.
+- Appropriate alt text.
+- Attractive cropping.
+- No broken image links.
+- No unrelated stock imagery.
+- No fake hospital logos.
+- No invented doctor identities presented as actual staff.
+
+Do not fill every page with unnecessary pictures. Use images where they genuinely improve the experience.
+
+==================================================
+13. BEAUTIFUL ANIMATIONS AND INTERACTIONS
+==================================================
+
+Add subtle professional animations across the website.
+
+Use:
+
+- Smooth page transitions.
+- Scroll reveal animations.
+- Hover effects.
+- Button transitions.
+- Card hover effects.
+- Gentle image animations.
+- Loading skeletons.
+- Elegant modal transitions.
+- Smooth dropdown menus.
+- Animated statistics when actual values are loaded.
+- Subtle hero section motion.
+
+Use CSS animations or a compatible motion library if appropriate.
+
+Animations must:
+- Be smooth.
+- Be lightweight.
+- Not slow the application.
+- Respect reduced-motion accessibility preferences.
+- Work correctly on mobile.
+
+Do not make the interface excessively animated.
+
+==================================================
+14. COMPLETE PUBLIC WEBSITE PAGES
+==================================================
+
+Inspect every existing page and create missing pages.
+
+Ensure the following pages are fully connected:
+
+1. Home.
+2. About Gokul Hospital.
+3. Departments.
+4. Department Details.
+5. Our Doctors.
+6. Doctor Profiles.
+7. Medical Services.
+8. Hospital Facilities.
+9. Emergency Services.
+10. Appointment Booking.
+11. Health Packages.
+12. Contact Us.
+13. Health Blog.
+14. Blog Details.
+15. Gallery.
+16. Testimonials.
+17. FAQs.
+18. Login.
+19. Register.
+20. Forgot Password.
+21. Reset Password.
+22. Privacy Policy.
+23. Terms and Conditions.
+24. Cancellation Policy.
+25. 404 Not Found.
+
+Create appropriate role-protected dashboard pages.
+
+No page should show a blank screen, placeholder error, or incorrect route.
+
+==================================================
+15. LOGIN AND REGISTRATION
+==================================================
+
+Use Firebase Authentication if configured.
+
+Create:
+
+- Patient Registration.
+- Patient Login.
+- Forgot Password.
+- Password Reset.
+- Email Verification.
+- Google Login when configured.
+- Logout.
+- Secure Protected Routes.
+
+Use secure authentication.
+
+Protect patient, doctor, receptionist, and administrator accounts according to their assigned roles.
+
+==================================================
+16. NOTIFICATIONS
+==================================================
+
+Build a real notification system for:
+
+- Booking Requests.
+- Appointment Confirmation.
+- Cancellation.
+- Rescheduling.
+- Appointment Reminders.
+- Hospital Announcements.
+
+Create in-app notifications.
+
+Email, SMS, WhatsApp, and push notifications must only be marked active when their respective service integrations have actually been configured and tested.
+
+==================================================
+17. SECURITY AND PRIVACY
+==================================================
+
+Implement:
+
+- Authentication.
+- Role-Based Access Control.
+- Protected Routes.
+- Secure APIs.
+- Firestore Security Rules.
+- Server-Side Validation.
+- Authorization Checks.
+- Input Sanitization.
+- Rate Limiting.
+- Secure File Uploads.
+- Environment Variables.
+- Audit Logging.
+- Patient Data Protection.
+- Consent Management.
+- Appropriate Error Handling.
+
+Never expose sensitive personal information.
+
+Never store passwords in plain text.
+
+Never expose private API secrets in frontend code.
+
+Use test data during development.
+
+Do not claim legal compliance without an appropriate independent assessment.
+
+==================================================
+18. PERFORMANCE AND RESPONSIVENESS
+==================================================
+
+Optimize the website for:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Android.
+- iPhone.
+
+Requirements:
+
+- Fully responsive layout.
+- Fast navigation.
+- Optimized images.
+- Efficient database requests.
+- Lazy loading.
+- Clean CSS.
+- Reusable components.
+- No unnecessary packages.
+- No layout overflow.
+- No broken links.
+- Accessible forms.
+- Excellent mobile navigation.
+
+==================================================
+19. COMPLETE TESTING — DO NOT SKIP
+==================================================
+
+Act as an experienced QA engineer.
+
+Test the complete application.
+
+MOST IMPORTANT TEST:
+
+Open the real /appointment route.
+
+Verify:
+
+1. Appointment page loads.
+2. No 404 error appears.
+3. The department list loads.
+4. The doctors list loads.
+5. Doctor availability loads.
+6. Dates can be selected.
+7. Available slots appear.
+8. Patient details can be entered.
+9. Form validation works.
+10. Booking request reaches the backend.
+11. Appointment is actually saved to the database.
+12. Duplicate slot booking is prevented.
+13. Appointment ID is generated.
+14. Confirmation appears only after successful saving.
+15. Appointment appears in the patient dashboard.
+16. Appointment appears in the authorized admin dashboard.
+17. Doctor can view the assigned appointment.
+18. Cancellation works.
+19. Rescheduling works.
+20. Browser refresh continues to work on the appointment route.
+
+TEST ALL OTHER FEATURES:
+
+- Login.
+- Registration.
+- Logout.
+- Protected Routes.
+- Patient Dashboard.
+- Doctor Dashboard.
+- Admin Dashboard.
+- Receptionist Dashboard.
+- Department Management.
+- Doctor Management.
+- Search.
+- Filters.
+- Database Operations.
+- Notifications.
+- Security Rules.
+- Mobile Responsive Layout.
+- Build Process.
+- Browser Console.
+
+When an error is discovered:
+
+1. Identify the actual cause.
+2. Open the affected source file.
+3. Fix the code directly.
+4. Re-run the relevant test.
+5. Verify that the error is resolved.
+6. Check related features for regressions.
+
+Do not just describe errors to me. Fix them directly whenever the environment allows.
+
+Do not report tests as passed unless they actually ran successfully.
+
+==================================================
+20. FAST AND SYSTEMATIC DEVELOPMENT
+==================================================
+
+I want this website upgraded efficiently.
+
+Do not waste time repeatedly generating only design previews.
+
+Work in the following priority order:
+
+PRIORITY 1:
+Fix the /appointment 404 error and implement the actual booking page.
+
+PRIORITY 2:
+Connect appointment backend and Firestore database.
+
+PRIORITY 3:
+Implement booking validation, availability, and duplicate prevention.
+
+PRIORITY 4:
+Apply the new blue-and-white theme globally.
+
+PRIORITY 5:
+Upgrade homepage, header, footer, and all public pages.
+
+PRIORITY 6:
+Add professional medical images and animations.
+
+PRIORITY 7:
+Complete patient, doctor, receptionist, and admin dashboards.
+
+PRIORITY 8:
+Complete security and database rules.
+
+PRIORITY 9:
+Test all features and fix errors.
+
+PRIORITY 10:
+Prepare the final production deployment.
+
+Use reusable components and compatible packages to accelerate development without compromising quality.
+
+Do not delete working functionality.
+
+Do not ask me unnecessary questions. Make sensible professional design decisions using the existing project context.
+
+If a required external credential or Firebase approval is missing, complete every possible task and clearly tell me exactly what is needed.
+
+==================================================
+21. FINAL DELIVERY REPORT
+==================================================
+
+After development, provide:
+
+1. All modified and created files.
+2. The complete page list.
+3. Website design improvements.
+4. Blue color theme implementation status.
+5. Image and animation implementation status.
+6. Appointment route repair status.
+7. Appointment backend status.
+8. Database connection status.
+9. Firebase authentication status.
+10. Patient dashboard status.
+11. Doctor dashboard status.
+12. Admin dashboard status.
+13. Receptionist dashboard status.
+14. Security status.
+15. Testing results.
+16. Errors found.
+17. Errors fixed.
+18. Remaining errors.
+19. Missing credentials.
+20. Deployment instructions.
+
+Clearly distinguish between completed, tested, partially configured, and untested features.
+
+Do not claim that the website is fully production-ready if any required integration or security review remains incomplete.
+
+==================================================
+FINAL COMMAND
+==================================================
+
+I want my existing GOKUL HOSPITAL WEBSITE to become a HIGH-END, PREMIUM, PROFESSIONAL, BEAUTIFUL, BLUE-AND-WHITE, COMPLETE FULL-STACK HOSPITAL WEBSITE.
+
+The current website is too basic.
+
+Upgrade the entire experience.
+
+Fix the broken appointment route.
+
+Build a complete appointment booking page with actual backend and database integration.
+
+Add all necessary pages, relevant medical images, beautiful animations, dashboards, authentication, security, and professional UI.
+
+Make the entire website consistent.
+
+I want every important feature to work.
+
+Do not just give me code suggestions.
+
+Do not just create a beautiful static design.
+
+Work on my existing project, modify the source code, connect all services, test the complete application, and fix every error that can be fixed in the available environment.
+
+START IMPLEMENTING THE COMPLETE GOKUL HOSPITAL WEBSITE NOW.
+
+DO NOT STOP AT THE HOMEPAGE.
+
+DO NOT LEAVE THE /APPOINTMENT PAGE BROKEN.
+
+DO NOT CLAIM COMPLETION WITHOUT TESTING.

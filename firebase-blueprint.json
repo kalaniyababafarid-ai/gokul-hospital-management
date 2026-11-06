@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Gokul Hospital user account with RBAC role (patient, doctor, receptionist, admin)",
+      "type": "object",
+      "properties": {
+        "fullName": { "type": "string", "maxLength": 120 },
+        "email": { "type": "string", "format": "email", "maxLength": 160 },
+        "phone": { "type": "string", "maxLength": 30 },
+        "role": { "type": "string", "enum": ["patient", "doctor", "receptionist", "admin"] },
+        "isActive": { "type": "boolean" },
+        "privacyConsent": { "type": "boolean" },
+        "termsAccepted": { "type": "boolean" }
+      },
+      "required": ["fullName", "email", "phone", "role", "isActive", "privacyConsent", "termsAccepted"]
+    },
+    "Appointment": {
+      "title": "Appointment",
+      "description": "Patient consultation appointment with concurrency-checked time slot",
+      "type": "object",
+      "properties": {
+        "appointmentNumber": { "type": "string", "maxLength": 32 },
+        "patientId": { "type": "string", "maxLength": 128 },
+        "doctorId": { "type": "string", "maxLength": 128 },
+        "departmentId": { "type": "string", "maxLength": 128 },
+        "appointmentDate": { "type": "string", "maxLength": 16 },
+        "timeSlot": { "type": "string", "maxLength": 32 },
+        "reason": { "type": "string", "maxLength": 500 },
+        "status": { "type": "string", "enum": ["Pending", "Confirmed", "Cancelled", "Completed", "No-show"] }
+      },
+      "required": ["appointmentNumber", "patientId", "doctorId", "departmentId", "appointmentDate", "timeSlot", "reason", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User accounts and role profiles"
+    },
+    "/appointments/{appointmentId}": {
+      "schema": "Appointment",
+      "description": "Hospital consultation appointments"
+    }
+  }
+}

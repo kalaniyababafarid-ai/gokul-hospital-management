@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #123B67;
+    --color-royal-blue: #167DB5;
+    --color-secondary: #1685B8;
+    --color-accent: #19B7A5;
+    --color-light-blue: #EAF5FC;
+    --color-bg: #F5F9FC;
+    --color-surface: #FFFFFF;
+    --color-text: #243447;
+    --font-display: 'Manrope', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.022em;
+    line-height: 1.18;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Typographic Scale Helpers Matching International Hospital Standards */
+.heading-hero {
+  font-family: var(--font-display);
+  font-size: clamp(2.15rem, 4.2vw, 3.65rem); /* 34px mobile -> 58px desktop */
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.heading-page {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.2vw, 2.75rem); /* 32px -> 44px */
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.022em;
+}
+
+.heading-section {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem); /* 28px -> 36px */
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.heading-card {
+  font-family: var(--font-display);
+  font-size: clamp(1.1875rem, 1.5vw, 1.4375rem); /* 19px -> 23px */
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* Wide Responsive Container System (1360px public, 1440px dashboard) */
+.hospital-container {
+  width: 100%;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1rem, 3vw, 2.5rem);
+  padding-right: clamp(1rem, 3vw, 2.5rem);
+}
+
+.dashboard-container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1rem, 2.5vw, 2.25rem);
+  padding-right: clamp(1rem, 2.5vw, 2.25rem);
+}
+
+@keyframes fadeUpSmooth {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseSoft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.72;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-fade-up {
+    animation: fadeUpSmooth 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .hospital-card-hover {
+    transition:
+      transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+      border-color 0.28s ease;
+  }
+
+  .hospital-card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 22px 44px -12px rgba(18, 59, 103, 0.16);
+    border-color: #1685B8;
+  }
+
+  .image-hover-zoom {
+    overflow: hidden;
+  }
+
+  .image-hover-zoom img,
+  .image-hover-zoom > .visual-canvas {
+    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .hospital-card-hover:hover .image-hover-zoom img,
+  .hospital-card-hover:hover .image-hover-zoom > .visual-canvas,
+  .image-hover-zoom:hover img,
+  .image-hover-zoom:hover > .visual-canvas {
+    transform: scale(1.055);
+  }
+}

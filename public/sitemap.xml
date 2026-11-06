@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>/about</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/overview</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>/mission-vision</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>/departments</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>/doctors</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/find-doctor</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/services</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/facilities</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/emergency</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>/appointment</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>/health-packages</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/testimonials</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>/gallery</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>/blogs</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>/faq</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>/terms</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>/cancellation-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+</urlset>

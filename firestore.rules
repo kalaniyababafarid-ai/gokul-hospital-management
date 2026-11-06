@@ -1,0 +1,170 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global Default-Deny Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && getUserRole() == 'admin';
+    }
+
+    function isReceptionist() {
+      return isSignedIn() && (getUserRole() == 'receptionist' || getUserRole() == 'admin');
+    }
+
+    function isDoctor() {
+      return isSignedIn() && getUserRole() == 'doctor';
+    }
+
+    // 1. users (PII Protected - Split / Owner or Admin only)
+    match /users/{userId} {
+      allow get: if isSignedIn() && isValidId(userId) && (request.auth.uid == userId || isAdmin() || isReceptionist());
+      allow list: if isAdmin() || isReceptionist();
+      allow create: if isSignedIn() && isValidId(userId) && request.auth.uid == userId && incoming().role == 'patient';
+      allow update: if isSignedIn() && isValidId(userId) && (
+        isAdmin() ||
+        (request.auth.uid == userId && incoming().role == existing().role)
+      );
+      allow delete: if isAdmin() && isValidId(userId);
+    }
+
+    // 2. departments (Public Read, Admin Write)
+    match /departments/{deptId} {
+      allow get: if isValidId(deptId);
+      allow list: if resource.data.isActive == true || isAdmin();
+      allow create, update, delete: if isAdmin() && isValidId(deptId);
+    }
+
+    // 3. doctors (Public Read, Admin / Self Doctor Write)
+    match /doctors/{doctorId} {
+      allow get: if isValidId(doctorId);
+      allow list: if resource.data.isAvailable == true || isAdmin() || isReceptionist();
+      allow create, delete: if isAdmin() && isValidId(doctorId);
+      allow update: if isValidId(doctorId) && (isAdmin() || (isDoctor() && existing().userId == request.auth.uid));
+    }
+
+    // 4. appointments (Strict RBAC: Patient owns, Doctor assigned, Receptionist/Admin operational)
+    match /appointments/{appointmentId} {
+      allow get: if isSignedIn() && isValidId(appointmentId) && (
+        existing().patientId == request.auth.uid ||
+        existing().doctorId == request.auth.uid ||
+        isReceptionist() ||
+        isAdmin()
+      );
+      allow list: if isSignedIn() && (
+        resource.data.patientId == request.auth.uid ||
+        resource.data.doctorId == request.auth.uid ||
+        isReceptionist() ||
+        isAdmin()
+      );
+      allow create: if isSignedIn() && isValidId(appointmentId) && (
+        incoming().patientId == request.auth.uid || isReceptionist() || isAdmin()
+      );
+      allow update: if isSignedIn() && isValidId(appointmentId) && (
+        isAdmin() ||
+        isReceptionist() ||
+        (existing().patientId == request.auth.uid && incoming().patientId == existing().patientId) ||
+        (isDoctor() && existing().doctorId == request.auth.uid)
+      );
+    }
+
+    // 5. medicalRecords (Patient Read Own, Doctor/Admin Write)
+    match /medicalRecords/{recordId} {
+      allow get: if isSignedIn() && isValidId(recordId) && (
+        existing().patientId == request.auth.uid || isDoctor() || isAdmin()
+      );
+      allow list: if isSignedIn() && (
+        resource.data.patientId == request.auth.uid || isDoctor() || isAdmin()
+      );
+      allow create, update: if isValidId(recordId) && (isDoctor() || isAdmin());
+    }
+
+    // 6. prescriptions (Patient Read Own, Doctor/Admin Write)
+    match /prescriptions/{rxId} {
+      allow get: if isSignedIn() && isValidId(rxId) && (
+        existing().patientId == request.auth.uid || isDoctor() || isAdmin()
+      );
+      allow list: if isSignedIn() && (
+        resource.data.patientId == request.auth.uid || isDoctor() || isAdmin()
+      );
+      allow create, update: if isValidId(rxId) && (isDoctor() || isAdmin());
+    }
+
+    // 7. labReports (Patient Read Own, Doctor/Admin Write)
+    match /labReports/{reportId} {
+      allow get: if isSignedIn() && isValidId(reportId) && (
+        existing().patientId == request.auth.uid || isDoctor() || isAdmin()
+      );
+      allow list: if isSignedIn() && (
+        resource.data.patientId == request.auth.uid || isDoctor() || isAdmin()
+      );
+      allow create, update: if isValidId(reportId) && (isDoctor() || isAdmin());
+    }
+
+    // 8. hospitalServices, facilities, healthPackages, blogs, testimonials, gallery, websiteSettings
+    match /hospitalServices/{id} {
+      allow get, list: if true;
+      allow create, update, delete: if isAdmin() && isValidId(id);
+    }
+    match /facilities/{id} {
+      allow get, list: if true;
+      allow create, update, delete: if isAdmin() && isValidId(id);
+    }
+    match /healthPackages/{id} {
+      allow get, list: if true;
+      allow create, update, delete: if isAdmin() && isValidId(id);
+    }
+    match /blogs/{id} {
+      allow get, list: if true;
+      allow create, update, delete: if isAdmin() && isValidId(id);
+    }
+    match /testimonials/{id} {
+      allow get, list: if resource.data.isApproved == true || isAdmin();
+      allow create, update, delete: if isAdmin() && isValidId(id);
+    }
+    match /gallery/{id} {
+      allow get, list: if true;
+      allow create, update, delete: if isAdmin() && isValidId(id);
+    }
+    match /websiteSettings/{id} {
+      allow get: if true;
+      allow create, update: if isAdmin() && isValidId(id);
+    }
+    match /notifications/{id} {
+      allow get, list: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow update: if isSignedIn() && isValidId(id) && existing().userId == request.auth.uid;
+      allow create: if isAdmin() || isReceptionist();
+    }
+    match /inquiries/{id} {
+      allow create: if isValidId(id);
+      allow get, list, update: if isAdmin() || isReceptionist();
+    }
+    match /auditLogs/{id} {
+      allow get, list: if isAdmin();
+      allow create: if isAdmin() || isReceptionist() || isDoctor();
+    }
+  }
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /patient-dashboard
+Disallow: /doctor-dashboard
+Disallow: /receptionist-dashboard
+Disallow: /admin-dashboard
+Disallow: /api/
+
+Sitemap: /sitemap.xml

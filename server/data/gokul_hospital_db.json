@@ -1,0 +1,3837 @@
+{
+  "users": [
+    {
+      "id": "user-admin-1",
+      "fullName": "Gokul Hospital Chief Administrator",
+      "email": "admin@gokulhospital.in",
+      "phone": "+91-98000-00001",
+      "role": "admin",
+      "isActive": true,
+      "emailVerified": true,
+      "privacyConsent": true,
+      "termsAccepted": true,
+      "passwordHash": "3c2ce3cd76c6fe1c58a730659e7863da:c0f2d9964cff7bb543121d8cc84fbdc42ef295d9a301507b1935933a4266ff9eae7454c82faab562f20f48bb985c0f0b26b9391d157ceb3ef19fad02796f1df1",
+      "createdAt": "2026-11-01T04:01:19.559Z",
+      "updatedAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "user-doctor-1",
+      "fullName": "Dr. Rajeshwar Sharma",
+      "email": "dr.sharma@gokulhospital.in",
+      "phone": "+91-98000-00002",
+      "role": "doctor",
+      "doctorId": "doc-1",
+      "isActive": true,
+      "emailVerified": true,
+      "privacyConsent": true,
+      "termsAccepted": true,
+      "passwordHash": "1884887b92c890e0de1620e79056e6ea:9d6f3acefbbd92274fa087595b8ce2fb88df00dc3de44764b5a65dcaf001ef95567257c6e80ecbb02381ee89896eb9dd12122c4bcd91af40d6b8579a7fe918a7",
+      "createdAt": "2026-11-01T04:01:19.559Z",
+      "updatedAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "user-receptionist-1",
+      "fullName": "Anjali Verma (OPD Front Desk)",
+      "email": "reception@gokulhospital.in",
+      "phone": "+91-98000-00003",
+      "role": "receptionist",
+      "isActive": true,
+      "emailVerified": true,
+      "privacyConsent": true,
+      "termsAccepted": true,
+      "passwordHash": "fb3fed02819341e279bd5af8dcc767e5:bbf83189e71c61596b76badb8adcb46c9c9c571fe098b4214f26f3f09a8a1011c1c0ce8e2d2dba6bc2bec7d5dc4cfbaf67ff708dd208f969f81f46e3e2007fef",
+      "createdAt": "2026-11-01T04:01:19.559Z",
+      "updatedAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "user-patient-1",
+      "fullName": "Aarav Patel",
+      "email": "patient@gokulhospital.in",
+      "phone": "+91-98765-43210",
+      "role": "patient",
+      "isActive": true,
+      "emailVerified": true,
+      "dateOfBirth": "1988-05-14",
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "address": "14 Shanti Niketan Society, India",
+      "emergencyContact": "+91-98765-43211 (Spouse)",
+      "allergies": "Penicillin (Mild Rash)",
+      "chronicConditions": "Borderline Hypertension",
+      "privacyConsent": true,
+      "termsAccepted": true,
+      "allowDataSharingWithDoctors": true,
+      "passwordHash": "23c0f45e88192f35a3adfd0266af5848:ab67ccdb2efb9d8cd3b916d0f4355e3ec0d522094b9a6095b3989a762683f57cb2fd6ee1c59212108b42ab981ffeb11bf144147ef88c331dfdfb5dab31e15b7b",
+      "createdAt": "2026-11-01T04:01:19.559Z",
+      "updatedAt": "2026-11-01T04:01:19.559Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-cardiology",
+      "slug": "cardiology",
+      "name": "Cardiology",
+      "shortDescription": "Comprehensive heart care, non-invasive cardiac diagnostics, angiography, and preventive cardiology.",
+      "fullDescription": "The Department of Cardiology at Gokul Hospital provides diagnostic evaluation and clinical management for coronary artery disease, arrhythmias, heart failure, and hypertension. Equipped with ECG, 2D Echo, TMT, and Holter monitoring suites.",
+      "headOfDepartment": "Dr. Rajeshwar Sharma (Demo Profile)",
+      "floorLocation": "Wing A, 2nd Floor",
+      "contactExtension": "Ext. 201",
+      "keyProcedures": [
+        "2D Echocardiography & Color Doppler",
+        "Treadmill Stress Test (TMT)",
+        "24-Hour Holter Monitoring",
+        "Hypertension & Lipid Management"
+      ],
+      "equipmentHighlights": [
+        "Digital 12-Channel ECG",
+        "High-Resolution Cardiac Ultrasound",
+        "Continuous Cardiac Telemetry"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-neurology",
+      "slug": "neurology",
+      "name": "Neurology",
+      "shortDescription": "Specialized evaluation and management of stroke, epilepsy, migraine, neuropathy, and movement disorders.",
+      "fullDescription": "Our Neurology unit focuses on rapid stroke assessment, seizure management, chronic headache clinics, and neuromuscular diagnostics including EEG and nerve conduction studies.",
+      "headOfDepartment": "Dr. Ananya Deshmukh (Demo Profile)",
+      "floorLocation": "Wing A, 3rd Floor",
+      "contactExtension": "Ext. 302",
+      "keyProcedures": [
+        "Electroencephalography (EEG)",
+        "Nerve Conduction Velocity (NCV)",
+        "Stroke Rehabilitation Planning",
+        "Epilepsy & Migraine Clinic"
+      ],
+      "equipmentHighlights": [
+        "Digital Video EEG System",
+        "EMG/NCV Workstation",
+        "Neuro-Critical Monitoring"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-orthopedics",
+      "slug": "orthopedics",
+      "name": "Orthopedics",
+      "shortDescription": "Bone, joint, spine, sports injury care, fracture management, and arthroscopic procedures.",
+      "fullDescription": "The Department of Orthopedics delivers trauma fracture fixation, joint preservation, arthritis care, sports injury rehabilitation, and spinal disorder management in coordination with Physiotherapy.",
+      "headOfDepartment": "Dr. Vikramaditya Patel (Demo Profile)",
+      "floorLocation": "Wing B, 1st Floor",
+      "contactExtension": "Ext. 104",
+      "keyProcedures": [
+        "Complex Fracture Fixation",
+        "Knee & Hip Joint Care",
+        "Arthroscopy & Ligament Repair",
+        "Spine & Back Pain Clinic"
+      ],
+      "equipmentHighlights": [
+        "C-Arm Fluoroscopy",
+        "Laminar Airflow Orthopedic OT",
+        "Digital Ortho Radiography"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-pediatrics",
+      "slug": "pediatrics",
+      "name": "Pediatrics",
+      "shortDescription": "Dedicated child healthcare, newborn care, immunization clinics, and pediatric developmental tracking.",
+      "fullDescription": "Our Pediatrics department offers compassionate outpatient and inpatient care for infants, children, and adolescents, including routine vaccination schedules, growth assessment, and seasonal infection management.",
+      "headOfDepartment": "Dr. Meera Krishnan (Demo Profile)",
+      "floorLocation": "Wing B, Ground Floor",
+      "contactExtension": "Ext. 108",
+      "keyProcedures": [
+        "Childhood Immunization Schedule",
+        "Newborn & Well-Baby Clinic",
+        "Pediatric Asthma & Allergy Care",
+        "Growth & Nutrition Assessment"
+      ],
+      "equipmentHighlights": [
+        "Neonatal Phototherapy Units",
+        "Infant Warmers",
+        "Child-Friendly OPD Suites"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-gynecology",
+      "slug": "gynecology",
+      "name": "Gynecology",
+      "shortDescription": "Maternity care, antenatal checkups, high-risk pregnancy management, and women’s health services.",
+      "fullDescription": "The Obstetrics & Gynecology department supports women through all stages of life, providing prenatal care, safe delivery suites, PCOS management, and minimally invasive gynecological procedures.",
+      "headOfDepartment": "Dr. Sunita Kulkarni (Demo Profile)",
+      "floorLocation": "Wing B, 2nd Floor",
+      "contactExtension": "Ext. 209",
+      "keyProcedures": [
+        "Antenatal & Postnatal Care",
+        "Fetal Monitoring (NST/CTG)",
+        "PCOS & Endocrine Clinic",
+        "Preventive Cervical Screening"
+      ],
+      "equipmentHighlights": [
+        "Fetal Cardiotocography Monitors",
+        "Dedicated Labor & Recovery Suites",
+        "Colposcopy Unit"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-dermatology",
+      "slug": "dermatology",
+      "name": "Dermatology",
+      "shortDescription": "Clinical diagnosis and treatment of skin, hair, and nail conditions, allergies, and dermatological procedures.",
+      "fullDescription": "Our Dermatology clinic provides evidence-based medical treatment for eczema, psoriasis, acne, fungal infections, pigmentary disorders, and minor outpatient dermatosurgery.",
+      "headOfDepartment": "Dr. Kavita Nair (Demo Profile)",
+      "floorLocation": "Wing C, 1st Floor",
+      "contactExtension": "Ext. 115",
+      "keyProcedures": [
+        "Digital Dermoscopy",
+        "Allergy & Patch Testing",
+        "Acne & Scar Management",
+        "Cryotherapy & Biopsy"
+      ],
+      "equipmentHighlights": [
+        "Polarized Dermatoscope",
+        "Minor Procedure Suite",
+        "Wood’s Lamp Examination"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-general-medicine",
+      "slug": "general-medicine",
+      "name": "General Medicine",
+      "shortDescription": "Primary adult internal medicine, diabetes care, infectious diseases, thyroid, and preventive checkups.",
+      "fullDescription": "General Medicine serves as the primary point of clinical evaluation for adult patients, coordinating multi-system diagnosis, chronic disease management (diabetes, hypertension, thyroid), and inpatient medical care.",
+      "headOfDepartment": "Dr. Arvind Iyer (Demo Profile)",
+      "floorLocation": "Wing A, Ground Floor",
+      "contactExtension": "Ext. 101",
+      "keyProcedures": [
+        "Diabetes & Metabolic Clinic",
+        "Infectious Disease & Fever Evaluation",
+        "Geriatric Health Management",
+        "Preventive Adult Screening"
+      ],
+      "equipmentHighlights": [
+        "Point-of-Care Glucometry & ABG",
+        "Continuous Vital Sign Monitors",
+        "Integrated Electronic Health Records"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-general-surgery",
+      "slug": "general-surgery",
+      "name": "General Surgery",
+      "shortDescription": "Laparoscopic and open surgical care for hernia, gallbladder, appendix, gastrointestinal, and soft tissue conditions.",
+      "fullDescription": "The Department of General & Minimal Access Surgery performs elective and emergency surgical procedures with strict sterile protocols and structured post-operative care.",
+      "headOfDepartment": "Dr. Sanjay Verma (Demo Profile)",
+      "floorLocation": "Wing A, 1st Floor",
+      "contactExtension": "Ext. 112",
+      "keyProcedures": [
+        "Laparoscopic Cholecystectomy",
+        "Hernia Repair Surgery",
+        "Appendectomy",
+        "Day-Care Minor Surgeries"
+      ],
+      "equipmentHighlights": [
+        "HD Laparoscopic Tower",
+        "Modular Operation Theatre",
+        "Post-Anesthesia Care Unit (PACU)"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-dentistry",
+      "slug": "dentistry",
+      "name": "Dentistry",
+      "shortDescription": "Preventive dental care, root canal treatment, oral surgery, prosthodontics, and gum care.",
+      "fullDescription": "Our Dental Sciences unit offers hygienic, painless dental procedures including digital dental X-rays, endodontics, crowns and bridges, and preventive oral hygiene.",
+      "headOfDepartment": "Dr. Neha Joshi (Demo Profile)",
+      "floorLocation": "Wing C, Ground Floor",
+      "contactExtension": "Ext. 118",
+      "keyProcedures": [
+        "Root Canal Treatment (RCT)",
+        "Ultrasonic Scaling & Polishing",
+        "Tooth Extraction & Oral Surgery",
+        "Crowns, Bridges & Dentures"
+      ],
+      "equipmentHighlights": [
+        "RVG Digital Dental Sensor",
+        "Ergonomic Dental Chairs",
+        "Class-B Autoclave Sterilization"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-ophthalmology",
+      "slug": "ophthalmology",
+      "name": "Ophthalmology",
+      "shortDescription": "Complete eye examinations, cataract evaluation, glaucoma screening, and diabetic retinopathy checks.",
+      "fullDescription": "The Eye Care department provides vision testing, slit-lamp biomicroscopy, intraocular pressure measurement, and medical/surgical management of common eye conditions.",
+      "headOfDepartment": "Dr. Pranav Mehta (Demo Profile)",
+      "floorLocation": "Wing C, 1st Floor",
+      "contactExtension": "Ext. 122",
+      "keyProcedures": [
+        "Comprehensive Vision & Refraction",
+        "Cataract Evaluation",
+        "Glaucoma Tonometry Screening",
+        "Diabetic Fundus Examination"
+      ],
+      "equipmentHighlights": [
+        "Auto-Refractometer",
+        "Slit-Lamp Biomicroscope",
+        "Non-Contact Tonometer"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-oncology",
+      "slug": "oncology",
+      "name": "Oncology",
+      "shortDescription": "Early cancer screening, preventive oncology consultations, biopsy evaluation, and supportive care.",
+      "fullDescription": "Our Oncology consultation unit emphasizes early detection, cancer screening protocols, multidisciplinary tumor board guidance, and compassionate supportive care.",
+      "headOfDepartment": "Dr. Siddharth Rao (Demo Profile)",
+      "floorLocation": "Wing A, 3rd Floor",
+      "contactExtension": "Ext. 308",
+      "keyProcedures": [
+        "Early Cancer Screening",
+        "Oncology Second Opinion",
+        "Biopsy & Histopathology Coordination",
+        "Palliative & Nutritional Support"
+      ],
+      "equipmentHighlights": [
+        "Day-Care Infusion Suite",
+        "Multidisciplinary Review Room",
+        "Pathology Linkage"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-radiology",
+      "slug": "radiology",
+      "name": "Radiology",
+      "shortDescription": "Digital X-ray, high-resolution Ultrasonography (USG), Color Doppler, and diagnostic imaging.",
+      "fullDescription": "The Radiology & Imaging department supports all clinical specialties with rapid, accurate diagnostic imaging adhering to radiation safety standards (ALARA).",
+      "headOfDepartment": "Dr.Deepak Malhotra (Demo Profile)",
+      "floorLocation": "Ground Floor, Diagnostic Block",
+      "contactExtension": "Ext. 105",
+      "keyProcedures": [
+        "Digital Radiography (X-Ray)",
+        "Abdominal & Pelvic Ultrasound",
+        "Peripheral Color Doppler",
+        "Guided Diagnostic Procedures"
+      ],
+      "equipmentHighlights": [
+        "High-Frequency Digital X-Ray",
+        "4D Color Doppler Ultrasound",
+        "PACS Digital Reporting"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-emergency-medicine",
+      "slug": "emergency-medicine",
+      "name": "Emergency Medicine",
+      "shortDescription": "24/7 acute medical care, trauma stabilization, cardiac emergencies, and ambulance triage.",
+      "fullDescription": "Gokul Hospital’s Emergency Medicine department operates 24 hours a day to triage, resuscitate, and stabilize acute medical, surgical, cardiac, and trauma emergencies.",
+      "headOfDepartment": "Dr. Rohan Deshpande (Demo Profile)",
+      "floorLocation": "Ground Floor, Emergency Entrance",
+      "contactExtension": "Ext. 100 / 108",
+      "keyProcedures": [
+        "Rapid Triage & Resuscitation",
+        "Acute Trauma Care",
+        "Cardiac & Stroke Stabilization",
+        "Poisoning & Acute Medical Care"
+      ],
+      "equipmentHighlights": [
+        "Multipara Defibrillators",
+        "Crash Carts & Ventilators",
+        "Dedicated Triage Bays"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-ent",
+      "slug": "ent",
+      "name": "ENT (Otorhinolaryngology)",
+      "shortDescription": "Ear, nose, throat, sinus, hearing assessment, vertigo, and voice disorder management.",
+      "fullDescription": "The ENT department offers endoscopic evaluation and treatment for sinusitis, tonsillitis, hearing loss, ear infections, nasal polyps, and balance disorders.",
+      "headOfDepartment": "Dr. Shalini Gupta (Demo Profile)",
+      "floorLocation": "Wing C, 2nd Floor",
+      "contactExtension": "Ext. 214",
+      "keyProcedures": [
+        "Nasal & Laryngeal Endoscopy",
+        "Pure Tone Audiometry",
+        "Vertigo & Tinnitus Assessment",
+        "Foreign Body Removal & Ear Microsuction"
+      ],
+      "equipmentHighlights": [
+        "HD Karl Storz Endoscopy Unit",
+        "Soundproof Audiometry Booth",
+        "ENT Treatment Workstation"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "dept-physiotherapy",
+      "slug": "physiotherapy",
+      "name": "Physiotherapy & Rehabilitation",
+      "shortDescription": "Post-surgical rehabilitation, sports injury recovery, electrotherapy, and mobility restoration.",
+      "fullDescription": "Our Physiotherapy & Rehabilitation center works closely with Orthopedics and Neurology to restore patient mobility, relieve chronic pain, and accelerate post-operative recovery.",
+      "headOfDepartment": "Dr. Kunal Chatterjee (Demo Profile)",
+      "floorLocation": "Wing B, Ground Floor",
+      "contactExtension": "Ext. 109",
+      "keyProcedures": [
+        "Post-Joint Replacement Rehab",
+        "Stroke & Neuro Rehabilitation",
+        "IFT, Ultrasound & TENS Therapy",
+        "Ergonomic & Posture Correction"
+      ],
+      "equipmentHighlights": [
+        "Electrotherapy Modalities",
+        "Parallel Bars & Balance Trainers",
+        "Continuous Passive Motion (CPM) Unit"
+      ],
+      "isActive": true,
+      "isDemoContent": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-1",
+      "slug": "dr-rajeshwar-sharma",
+      "userId": "user-doctor-1",
+      "name": "Dr. Rajeshwar Sharma",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "specialization": "Senior Consultant Cardiologist",
+      "qualifications": "MBBS, MD (Medicine), DM (Cardiology) [Demo Qualification]",
+      "experienceYears": 16,
+      "consultationFee": 800,
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of Cardiology. Specializes in clinical cardiology, echocardiography, preventive heart care, and hypertension management.",
+      "registrationNumber": "DEMO-MCI-10291",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#123B67",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-2",
+      "slug": "dr-ananya-deshmukh",
+      "name": "Dr. Ananya Deshmukh",
+      "departmentId": "dept-neurology",
+      "departmentName": "Neurology",
+      "specialization": "Consultant Neurologist",
+      "qualifications": "MBBS, MD, DM (Neurology) [Demo Qualification]",
+      "experienceYears": 12,
+      "consultationFee": 850,
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of Neurology. Focuses on stroke prevention, headache disorders, epilepsy management, and neuro-electrophysiology.",
+      "registrationNumber": "DEMO-MCI-20412",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#1685B8",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-3",
+      "slug": "dr-vikramaditya-patel",
+      "name": "Dr. Vikramaditya Patel",
+      "departmentId": "dept-orthopedics",
+      "departmentName": "Orthopedics",
+      "specialization": "Senior Orthopedic & Joint Surgeon",
+      "qualifications": "MBBS, MS (Orthopedics) [Demo Qualification]",
+      "experienceYears": 14,
+      "consultationFee": 700,
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of Orthopedics. Experienced in trauma fracture management, joint replacement consultations, and sports injury recovery.",
+      "registrationNumber": "DEMO-MCI-30588",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#19B7A5",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-4",
+      "slug": "dr-meera-krishnan",
+      "name": "Dr. Meera Krishnan",
+      "departmentId": "dept-pediatrics",
+      "departmentName": "Pediatrics",
+      "specialization": "Consultant Pediatrician & Neonatologist",
+      "qualifications": "MBBS, MD (Pediatrics), DCH [Demo Qualification]",
+      "experienceYears": 11,
+      "consultationFee": 600,
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of Pediatrics. Dedicated to newborn care, childhood vaccination programs, pediatric nutrition, and adolescent wellness.",
+      "registrationNumber": "DEMO-MCI-40915",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#123B67",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-5",
+      "slug": "dr-sunita-kulkarni",
+      "name": "Dr. Sunita Kulkarni",
+      "departmentId": "dept-gynecology",
+      "departmentName": "Gynecology",
+      "specialization": "Senior Obstetrician & Gynecologist",
+      "qualifications": "MBBS, MS (OBG), DNB [Demo Qualification]",
+      "experienceYears": 15,
+      "consultationFee": 700,
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of Gynecology. Provides comprehensive antenatal care, high-risk pregnancy consultations, and women’s preventive wellness.",
+      "registrationNumber": "DEMO-MCI-50129",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#1685B8",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-6",
+      "slug": "dr-arvind-iyer",
+      "name": "Dr. Arvind Iyer",
+      "departmentId": "dept-general-medicine",
+      "departmentName": "General Medicine",
+      "specialization": "Senior Consultant Internal Medicine & Diabetologist",
+      "qualifications": "MBBS, MD (Internal Medicine) [Demo Qualification]",
+      "experienceYears": 18,
+      "consultationFee": 550,
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of General Medicine. Specializes in adult internal medicine, diabetes reversal & control, thyroid disorders, and infectious diseases.",
+      "registrationNumber": "DEMO-MCI-60341",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#19B7A5",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-7",
+      "slug": "dr-kavita-nair",
+      "name": "Dr. Kavita Nair",
+      "departmentId": "dept-dermatology",
+      "departmentName": "Dermatology",
+      "specialization": "Consultant Dermatologist",
+      "qualifications": "MBBS, MD (Dermatology, Venereology & Leprosy) [Demo Qualification]",
+      "experienceYears": 9,
+      "consultationFee": 600,
+      "languages": [
+        "English",
+        "Hindi",
+        "Malayalam"
+      ],
+      "availableDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of Dermatology. Treats clinical skin conditions, allergies, pediatric dermatology, and hair/scalp disorders.",
+      "registrationNumber": "DEMO-MCI-70210",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#123B67",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "doc-8",
+      "slug": "dr-sanjay-verma",
+      "name": "Dr. Sanjay Verma",
+      "departmentId": "dept-general-surgery",
+      "departmentName": "General Surgery",
+      "specialization": "Senior General & Laparoscopic Surgeon",
+      "qualifications": "MBBS, MS (General Surgery), FMAS [Demo Qualification]",
+      "experienceYears": 17,
+      "consultationFee": 750,
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM",
+        "09:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "02:30 PM",
+        "03:00 PM",
+        "04:00 PM",
+        "04:30 PM",
+        "05:00 PM"
+      ],
+      "biography": "Demonstration profile for Gokul Hospital Department of General Surgery. Experienced in minimally invasive laparoscopic procedures, hernia repair, and gastrointestinal surgery.",
+      "registrationNumber": "DEMO-MCI-80442",
+      "isAvailable": true,
+      "isDemoProfile": true,
+      "avatarColor": "#1685B8",
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt-mvxl3by1-2dd638",
+      "appointmentNumber": "GKH-2026-1011",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PaidSandbox",
+      "paymentReference": "DEMO-SIM-RZP-673762 (Demo UPI Test · DEMO TEST ONLY)",
+      "demoEmailPreview": {
+        "id": "email-1793522673762-8jpon",
+        "to": "patient@gokulhospital.in",
+        "from": "Gokul Hospital OPD Desk <notifications@gokulhospital.in>",
+        "subject": "[DEMO EMAIL MODE] Simulated Payment & Booking Notice — GKH-2026-1011",
+        "body": "Dear Aarav Patel,\n\nYour outpatient appointment at GOKUL HOSPITAL (GKH-2026-1011) has been updated with a DEMO PAYMENT SIMULATION receipt.\n- Consulting Doctor: Dr. Rajeshwar Sharma (Cardiology)\n- Date & Time Slot: 2026-12-14 at 11:00 AM\n- Consultation Fee: ₹800 INR\n- Payment Status: DEMO PAYMENT MODE (Simulated — ₹0 Real Money Charged)\n- Simulated Reference: DEMO-SIM-RZP-673762 (Demo UPI Test · DEMO TEST ONLY)\n\nIMPORTANT NOTICE: This is a simulated test payment in Demo Mode and NOT an actual financial transaction.",
+        "sentAt": "2026-11-01T08:44:33.762Z",
+        "mode": "DEMO_EMAIL_MODE",
+        "disclaimer": "DEMO EMAIL MODE: Simulated confirmation email displayed in-app (no SMTP or Gmail credentials required)."
+      },
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T08:44:33.721Z",
+      "updatedAt": "2026-11-01T08:44:33.768Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxh6etf-a02576",
+      "appointmentNumber": "GKH-2026-1010",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PaidSandbox",
+      "paymentReference": "DEMO-SIM-RZP-098990 (Demo UPI Test · DEMO TEST ONLY)",
+      "demoEmailPreview": {
+        "id": "email-1793516098990-znm8d",
+        "to": "patient@gokulhospital.in",
+        "from": "Gokul Hospital OPD Desk <notifications@gokulhospital.in>",
+        "subject": "[DEMO EMAIL MODE] Simulated Payment & Booking Notice — GKH-2026-1010",
+        "body": "Dear Aarav Patel,\n\nYour outpatient appointment at GOKUL HOSPITAL (GKH-2026-1010) has been updated with a DEMO PAYMENT SIMULATION receipt.\n- Consulting Doctor: Dr. Rajeshwar Sharma (Cardiology)\n- Date & Time Slot: 2026-12-14 at 11:00 AM\n- Consultation Fee: ₹800 INR\n- Payment Status: DEMO PAYMENT MODE (Simulated — ₹0 Real Money Charged)\n- Simulated Reference: DEMO-SIM-RZP-098990 (Demo UPI Test · DEMO TEST ONLY)\n\nIMPORTANT NOTICE: This is a simulated test payment in Demo Mode and NOT an actual financial transaction.",
+        "sentAt": "2026-11-01T06:54:58.990Z",
+        "mode": "DEMO_EMAIL_MODE",
+        "disclaimer": "DEMO EMAIL MODE: Simulated confirmation email displayed in-app (no SMTP or Gmail credentials required)."
+      },
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T06:54:58.947Z",
+      "updatedAt": "2026-11-01T06:54:58.996Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxgylle-38db29",
+      "appointmentNumber": "GKH-2026-1009",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PaidSandbox",
+      "paymentReference": "DEMO-SIM-RZP-734531 (Demo UPI Test · DEMO TEST ONLY)",
+      "demoEmailPreview": {
+        "id": "email-1793515734531-um1kk",
+        "to": "patient@gokulhospital.in",
+        "from": "Gokul Hospital OPD Desk <notifications@gokulhospital.in>",
+        "subject": "[DEMO EMAIL MODE] Simulated Payment & Booking Notice — GKH-2026-1009",
+        "body": "Dear Aarav Patel,\n\nYour outpatient appointment at GOKUL HOSPITAL (GKH-2026-1009) has been updated with a DEMO PAYMENT SIMULATION receipt.\n- Consulting Doctor: Dr. Rajeshwar Sharma (Cardiology)\n- Date & Time Slot: 2026-12-14 at 11:00 AM\n- Consultation Fee: ₹800 INR\n- Payment Status: DEMO PAYMENT MODE (Simulated — ₹0 Real Money Charged)\n- Simulated Reference: DEMO-SIM-RZP-734531 (Demo UPI Test · DEMO TEST ONLY)\n\nIMPORTANT NOTICE: This is a simulated test payment in Demo Mode and NOT an actual financial transaction.",
+        "sentAt": "2026-11-01T06:48:54.531Z",
+        "mode": "DEMO_EMAIL_MODE",
+        "disclaimer": "DEMO EMAIL MODE: Simulated confirmation email displayed in-app (no SMTP or Gmail credentials required)."
+      },
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T06:48:54.482Z",
+      "updatedAt": "2026-11-01T06:48:54.537Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxfhrxx-96f848",
+      "appointmentNumber": "GKH-2026-1008",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PaidSandbox",
+      "paymentReference": "DEMO-SIM-RZP-269980 (Demo UPI Test · DEMO TEST ONLY)",
+      "demoEmailPreview": {
+        "id": "email-1793513269980-vd649",
+        "to": "patient@gokulhospital.in",
+        "from": "Gokul Hospital OPD Desk <notifications@gokulhospital.in>",
+        "subject": "[DEMO EMAIL MODE] Simulated Payment & Booking Notice — GKH-2026-1008",
+        "body": "Dear Aarav Patel,\n\nYour outpatient appointment at GOKUL HOSPITAL (GKH-2026-1008) has been updated with a DEMO PAYMENT SIMULATION receipt.\n- Consulting Doctor: Dr. Rajeshwar Sharma (Cardiology)\n- Date & Time Slot: 2026-12-14 at 11:00 AM\n- Consultation Fee: ₹800 INR\n- Payment Status: DEMO PAYMENT MODE (Simulated — ₹0 Real Money Charged)\n- Simulated Reference: DEMO-SIM-RZP-269980 (Demo UPI Test · DEMO TEST ONLY)\n\nIMPORTANT NOTICE: This is a simulated test payment in Demo Mode and NOT an actual financial transaction.",
+        "sentAt": "2026-11-01T06:07:49.980Z",
+        "mode": "DEMO_EMAIL_MODE",
+        "disclaimer": "DEMO EMAIL MODE: Simulated confirmation email displayed in-app (no SMTP or Gmail credentials required)."
+      },
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T06:07:49.941Z",
+      "updatedAt": "2026-11-01T06:07:49.986Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxeyk5q-942d69",
+      "appointmentNumber": "GKH-2026-1007",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PaidSandbox",
+      "paymentReference": "DEMO-SIM-RZP-373459 (Demo UPI Test · DEMO TEST ONLY)",
+      "demoEmailPreview": {
+        "id": "email-1793512373459-fxu8k",
+        "to": "patient@gokulhospital.in",
+        "from": "Gokul Hospital OPD Desk <notifications@gokulhospital.in>",
+        "subject": "[DEMO EMAIL MODE] Simulated Payment & Booking Notice — GKH-2026-1007",
+        "body": "Dear Aarav Patel,\n\nYour outpatient appointment at GOKUL HOSPITAL (GKH-2026-1007) has been updated with a DEMO PAYMENT SIMULATION receipt.\n- Consulting Doctor: Dr. Rajeshwar Sharma (Cardiology)\n- Date & Time Slot: 2026-12-14 at 11:00 AM\n- Consultation Fee: ₹800 INR\n- Payment Status: DEMO PAYMENT MODE (Simulated — ₹0 Real Money Charged)\n- Simulated Reference: DEMO-SIM-RZP-373459 (Demo UPI Test · DEMO TEST ONLY)\n\nIMPORTANT NOTICE: This is a simulated test payment in Demo Mode and NOT an actual financial transaction.",
+        "sentAt": "2026-11-01T05:52:53.459Z",
+        "mode": "DEMO_EMAIL_MODE",
+        "disclaimer": "DEMO EMAIL MODE: Simulated confirmation email displayed in-app (no SMTP or Gmail credentials required)."
+      },
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T05:52:53.390Z",
+      "updatedAt": "2026-11-01T05:52:53.465Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxbu8bi-d46193",
+      "appointmentNumber": "GKH-2026-1006",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PaidSandbox",
+      "paymentReference": "DEMO-SIM-RZP-132616 (Demo UPI Test · DEMO TEST ONLY)",
+      "demoEmailPreview": {
+        "id": "email-1793507132616-ha22p",
+        "to": "patient@gokulhospital.in",
+        "from": "Gokul Hospital OPD Desk <notifications@gokulhospital.in>",
+        "subject": "[DEMO EMAIL MODE] Simulated Payment & Booking Notice — GKH-2026-1006",
+        "body": "Dear Aarav Patel,\n\nYour outpatient appointment at GOKUL HOSPITAL (GKH-2026-1006) has been updated with a DEMO PAYMENT SIMULATION receipt.\n- Consulting Doctor: Dr. Rajeshwar Sharma (Cardiology)\n- Date & Time Slot: 2026-12-14 at 11:00 AM\n- Consultation Fee: ₹800 INR\n- Payment Status: DEMO PAYMENT MODE (Simulated — ₹0 Real Money Charged)\n- Simulated Reference: DEMO-SIM-RZP-132616 (Demo UPI Test · DEMO TEST ONLY)\n\nIMPORTANT NOTICE: This is a simulated test payment in Demo Mode and NOT an actual financial transaction.",
+        "sentAt": "2026-11-01T04:25:32.616Z",
+        "mode": "DEMO_EMAIL_MODE",
+        "disclaimer": "DEMO EMAIL MODE: Simulated confirmation email displayed in-app (no SMTP or Gmail credentials required)."
+      },
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T04:25:32.574Z",
+      "updatedAt": "2026-11-01T04:25:32.621Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxb42w8-67e790",
+      "appointmentNumber": "GKH-2026-1005",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PayAtHospital",
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T04:05:12.488Z",
+      "updatedAt": "2026-11-01T04:05:12.526Z",
+      "cancellationReason": "Automated integration test cleanup"
+    },
+    {
+      "id": "appt-mvxb3g5c-2b9ac0",
+      "appointmentNumber": "GKH-2026-1004",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "10:30 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PayAtHospital",
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T04:04:43.008Z",
+      "updatedAt": "2026-11-01T04:05:12.474Z",
+      "cancellationReason": "Pre-test cleanup"
+    },
+    {
+      "id": "appt-mvxb2ldg-75c455",
+      "appointmentNumber": "GKH-2026-1003",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91 98201 11223",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-12-14",
+      "timeSlot": "11:00 AM",
+      "reason": "Routine cardiac evaluation and blood pressure check",
+      "status": "Cancelled",
+      "paymentStatus": "PayAtHospital",
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T04:04:03.124Z",
+      "updatedAt": "2026-11-01T04:05:12.480Z",
+      "cancellationReason": "Pre-test cleanup"
+    },
+    {
+      "id": "appt-1001",
+      "appointmentNumber": "GKH-2026-1001",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91-98765-43210",
+      "patientDob": "1988-05-14",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-11-02",
+      "timeSlot": "10:00 AM",
+      "reason": "Annual Blood Pressure & Preventive Cardiac Review",
+      "notes": "Bringing home BP monitor log for the last 2 weeks.",
+      "status": "Confirmed",
+      "paymentStatus": "PayAtHospital",
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T04:01:19.559Z",
+      "updatedAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "appt-1002",
+      "appointmentNumber": "GKH-2026-1002",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91-98765-43210",
+      "patientDob": "1988-05-14",
+      "departmentId": "dept-general-medicine",
+      "departmentName": "General Medicine",
+      "doctorId": "doc-6",
+      "doctorName": "Dr. Arvind Iyer",
+      "consultationFee": 550,
+      "appointmentDate": "2026-11-05",
+      "timeSlot": "11:00 AM",
+      "reason": "Fasting Metabolic & Thyroid Profile Follow-up",
+      "status": "Pending",
+      "paymentStatus": "PayAtHospital",
+      "bookedByRole": "patient",
+      "createdAt": "2026-11-01T04:01:19.559Z",
+      "updatedAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "appt-1000",
+      "appointmentNumber": "GKH-2026-1000",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "patientEmail": "patient@gokulhospital.in",
+      "patientPhone": "+91-98765-43210",
+      "patientDob": "1988-05-14",
+      "departmentId": "dept-cardiology",
+      "departmentName": "Cardiology",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "consultationFee": 800,
+      "appointmentDate": "2026-10-27",
+      "timeSlot": "09:30 AM",
+      "reason": "Initial Blood Pressure Evaluation & Resting ECG",
+      "status": "Completed",
+      "paymentStatus": "PayAtHospital",
+      "bookedByRole": "patient",
+      "createdAt": "2026-10-27",
+      "updatedAt": "2026-10-27"
+    }
+  ],
+  "hospitalServices": [
+    {
+      "id": "srv-emergency",
+      "slug": "emergency-care",
+      "title": "Emergency Care",
+      "category": "Emergency",
+      "shortDescription": "24/7 acute triage, trauma stabilization, cardiac resuscitation, and rapid emergency response.",
+      "fullDescription": "Our Emergency Care unit operates round-the-clock with dedicated emergency physicians, trauma nurses, multipara monitors, and direct access to radiology and intensive care.",
+      "timings": "24 Hours × 7 Days",
+      "keyFeatures": [
+        "Immediate Triage Protocol",
+        "Cardiac & Stroke Stabilization",
+        "Dedicated Minor Procedure Bay",
+        "Direct ICU Transfer Lift"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-opd",
+      "slug": "outpatient-department",
+      "title": "Outpatient Department (OPD)",
+      "category": "Clinical",
+      "shortDescription": "Structured specialist consultations across 15 medical departments with digital queue and appointment scheduling.",
+      "fullDescription": "Gokul Hospital’s Outpatient Department provides comfortable consultation chambers, vital sign pre-assessment, electronic prescriptions, and minimal waiting times.",
+      "timings": "Mon – Sat: 08:30 AM – 08:00 PM",
+      "keyFeatures": [
+        "15+ Specialist Clinics",
+        "Online & Walk-In Slot Booking",
+        "Digital Prescription Records",
+        "Wheelchair Accessible Layout"
+      ],
+      "is24x7": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-ipd",
+      "slug": "inpatient-services",
+      "title": "Inpatient Services (IPD)",
+      "category": "Clinical",
+      "shortDescription": "Well-ventilated general wards, twin-sharing rooms, private suites, and intensive care units.",
+      "fullDescription": "Inpatient services at Gokul Hospital combine continuous nursing supervision, daily specialist rounds, dietitian-guided therapeutic meals, and strict infection control.",
+      "timings": "24 Hours × 7 Days",
+      "keyFeatures": [
+        "General, Semi-Private & Deluxe Rooms",
+        "Central Oxygen & Nurse Call System",
+        "In-House Dietetics",
+        "24/7 Duty Medical Officers"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-diagnostics",
+      "slug": "diagnostic-services",
+      "title": "Diagnostic Imaging Services",
+      "category": "Diagnostic",
+      "shortDescription": "Digital Radiography (X-Ray), Ultrasonography, 2D Echo, ECG, TMT, and EEG under one roof.",
+      "fullDescription": "Accurate clinical treatment starts with reliable diagnostics. Our imaging center uses calibrated digital systems to deliver fast reports to patients and treating doctors.",
+      "timings": "08:00 AM – 09:00 PM (Emergency X-Ray 24/7)",
+      "keyFeatures": [
+        "Digital X-Ray & Fluoroscopy",
+        "High-Definition Ultrasound & Doppler",
+        "12-Lead ECG & 2D Echo",
+        "Digital Report Access"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-lab",
+      "slug": "laboratory-services",
+      "title": "Laboratory & Pathology Services",
+      "category": "Diagnostic",
+      "shortDescription": "Automated biochemistry, hematology, clinical pathology, microbiology, and hormone assays.",
+      "fullDescription": "Our clinical laboratory processes routine and emergency blood, urine, and tissue samples with strict internal quality controls and barcoded sample tracking.",
+      "timings": "24 Hours × 7 Days",
+      "keyFeatures": [
+        "Barcoded Sample Tracking",
+        "Automated Hematology & Biochemistry",
+        "Online Lab Report Portal",
+        "Fast Emergency Turnaround"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-pharmacy",
+      "slug": "pharmacy-services",
+      "title": "24/7 Hospital Pharmacy",
+      "category": "Support",
+      "shortDescription": "Round-the-clock licensed in-house pharmacy stocking verified medicines, surgical supplies, and cold-chain biologics.",
+      "fullDescription": "Located on the ground floor adjacent to OPD and Emergency, the Gokul Hospital Pharmacy ensures genuine, batch-verified medications with temperature-monitored storage.",
+      "timings": "24 Hours × 7 Days",
+      "keyFeatures": [
+        "Cold-Chain Vaccine & Insulin Storage",
+        "Computerized Batch & Expiry Verification",
+        "Prescription Counseling",
+        "Emergency Drug Availability"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-ambulance",
+      "slug": "ambulance-services",
+      "title": "Ambulance & Patient Transport",
+      "category": "Emergency",
+      "shortDescription": "Basic and Cardiac Life Support (BLS/ALS) ambulances equipped with oxygen, defibrillator, and trained paramedics.",
+      "fullDescription": "Our emergency transport fleet provides rapid patient pickup, inter-facility transfers, and continuous vital monitoring en route to Gokul Hospital.",
+      "timings": "24 Hours × 7 Days",
+      "keyFeatures": [
+        "ALS & BLS Configured Vehicles",
+        "Trained Emergency Paramedics",
+        "Ventilator & Defibrillator Support",
+        "Direct Triage Pre-Alert"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-checkups",
+      "slug": "health-checkups",
+      "title": "Master Health Checkups",
+      "category": "Preventive",
+      "shortDescription": "Curated preventive screening packages for cardiac, diabetic, executive, senior citizen, and women’s wellness.",
+      "fullDescription": "Our Preventive Health Checkup lounge offers streamlined morning sample collection, imaging, and physician consultation to detect lifestyle diseases early.",
+      "timings": "Mon – Sat: 07:30 AM – 02:00 PM",
+      "keyFeatures": [
+        "Dedicated Fasting Sample Lounge",
+        "Same-Day Physician Review",
+        "Customized Age & Gender Panels",
+        "Digital Health Summary"
+      ],
+      "is24x7": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-preventive",
+      "slug": "preventive-healthcare",
+      "title": "Preventive Healthcare & Vaccination",
+      "category": "Preventive",
+      "shortDescription": "Adult and pediatric immunization, lifestyle counseling, diabetes education, and nutritional guidance.",
+      "fullDescription": "We partner with families to prevent illness through scheduled immunizations, dietary counseling, smoking cessation support, and blood pressure screening.",
+      "timings": "Mon – Sat: 09:00 AM – 06:00 PM",
+      "keyFeatures": [
+        "Pediatric & Adult Vaccines",
+        "Clinical Dietitian Consultations",
+        "Diabetes Self-Care Education",
+        "Corporate Wellness Camps"
+      ],
+      "is24x7": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-surgical",
+      "slug": "surgical-services",
+      "title": "Modular Surgical Services",
+      "category": "Clinical",
+      "shortDescription": "Modern operation theatres for general, laparoscopic, orthopedic, gynecological, ophthalmic, and ENT surgeries.",
+      "fullDescription": "Our surgical complex features HEPA-filtered laminar airflow operation theatres, central sterile supply department (CSSD), and dedicated post-anesthesia recovery bays.",
+      "timings": "Scheduled & 24/7 Emergency OT",
+      "keyFeatures": [
+        "HEPA Laminar Airflow OTs",
+        "Dedicated CSSD Sterilization",
+        "Pre-Anesthesia Checkup (PAC) Clinic",
+        "Post-Operative ICU Backup"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "srv-support",
+      "slug": "patient-support-services",
+      "title": "Patient Support & Helpdesk",
+      "category": "Support",
+      "shortDescription": "Admission assistance, insurance/TPA coordination desk, medical records support, and patient counseling.",
+      "fullDescription": "Our Patient Relations team assists families with admission formalities, cashless insurance documentation (where empaneled), cost estimates, and discharge summaries.",
+      "timings": "08:00 AM – 08:00 PM (Admission Desk 24/7)",
+      "keyFeatures": [
+        "24/7 Admission & Billing Helpdesk",
+        "TPA & Insurance Documentation Desk",
+        "Wheelchair & Stretcher Assistance",
+        "Transparent Tariff Guidance"
+      ],
+      "is24x7": true,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac-icu",
+      "title": "Intensive Care Unit (ICU)",
+      "category": "Critical Care",
+      "description": "Multipara monitored critical care beds with invasive/non-invasive ventilators, central oxygen supply, and 1:1 critical care nursing.",
+      "location": "1st Floor, Critical Care Block",
+      "specifications": [
+        "HEPA Air Filtration",
+        "Multipara Vital Monitors",
+        "Defibrillators & Syringe Pumps",
+        "24/7 Intensivist Coverage"
+      ],
+      "isVerified": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "fac-ot",
+      "title": "Modular Operation Theatres",
+      "category": "Surgical Infrastructure",
+      "description": "Sterile surgical suites designed for general, laparoscopic, orthopedic, and obstetric procedures with dedicated recovery bays.",
+      "location": "1st Floor, Surgical Wing",
+      "specifications": [
+        "Laminar Airflow",
+        "Shadowless LED Surgical Lights",
+        "Anesthesia Workstations",
+        "Central Sterile Supply (CSSD)"
+      ],
+      "isVerified": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "fac-rooms",
+      "title": "Patient Wards & Private Suites",
+      "category": "Inpatient Comfort",
+      "description": "Hygienic general wards, twin-sharing rooms, and private air-conditioned suites designed for restful recovery.",
+      "location": "2nd & 3rd Floors",
+      "specifications": [
+        "Adjustable Fowler Beds",
+        "Bedside Nurse Call Bell",
+        "Attached Hygienic Washrooms",
+        "Attendant Couch in Private Rooms"
+      ],
+      "isVerified": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "fac-diag",
+      "title": "Integrated Diagnostic & Lab Block",
+      "category": "Diagnostics",
+      "description": "Ground-floor diagnostic wing allowing seamless sample collection, digital X-ray, ultrasound, and ECG without stair climbing.",
+      "location": "Ground Floor, East Wing",
+      "specifications": [
+        "Digital Radiography",
+        "Ultrasound & Color Doppler",
+        "Automated Pathology Analyzers",
+        "Wheelchair Friendly Access"
+      ],
+      "isVerified": false,
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "healthPackages": [
+    {
+      "id": "pkg-basic",
+      "slug": "gokul-essential-wellness-check",
+      "name": "Gokul Essential Wellness Checkup",
+      "targetAudience": "Adults aged 18–40 years for annual baseline screening",
+      "priceInr": 1499,
+      "discountedPriceInr": 1199,
+      "includedTests": [
+        "Complete Blood Count (CBC) with ESR",
+        "Fasting Blood Glucose (FBS)",
+        "Lipid Profile (Total Cholesterol, HDL, LDL, Triglycerides)",
+        "Liver Function Test (SGPT, Bilirubin)",
+        "Kidney Function Test (Serum Creatinine, Blood Urea)",
+        "Urine Routine & Microscopy",
+        "12-Lead Resting ECG",
+        "General Physician Consultation"
+      ],
+      "preparationInstructions": "10–12 hours overnight fasting required. Plain water is permitted.",
+      "turnaroundTime": "Same Day (within 6 hours)",
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "pkg-cardiac",
+      "slug": "gokul-comprehensive-heart-diabetes-care",
+      "name": "Gokul Comprehensive Heart & Diabetes Package",
+      "targetAudience": "Individuals with family history of hypertension, diabetes, or cardiac risk",
+      "priceInr": 3499,
+      "discountedPriceInr": 2799,
+      "includedTests": [
+        "HbA1c (Glycosylated Hemoglobin) & Fasting/PP Blood Sugar",
+        "Complete Lipid Profile & High-Sensitivity CRP",
+        "2D Echocardiography or Treadmill Stress Test (TMT)",
+        "12-Lead Resting ECG",
+        "Complete Renal & Liver Function Panel",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Microalbumin",
+        "Cardiologist & Dietitian Consultation"
+      ],
+      "preparationInstructions": "12 hours overnight fasting required. Bring previous medical records and current medications.",
+      "turnaroundTime": "Same Day Evening",
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "pkg-executive",
+      "slug": "gokul-master-executive-full-body",
+      "name": "Gokul Master Executive Full Body Checkup",
+      "targetAudience": "Working professionals & adults aged 35+ seeking complete multi-organ screening",
+      "priceInr": 4999,
+      "discountedPriceInr": 3999,
+      "includedTests": [
+        "Complete Hemogram, HbA1c & Fasting Glucose",
+        "Comprehensive Liver, Kidney & Lipid Profiles",
+        "Thyroid Profile (T3, T4, TSH)",
+        "Vitamin D3 & Vitamin B12 Assay",
+        "Chest X-Ray (Digital) & Ultrasound Whole Abdomen",
+        "12-Lead ECG & 2D Echo Screening",
+        "Urine & Stool Routine Analysis",
+        "Senior Internal Medicine & Dental Review"
+      ],
+      "preparationInstructions": "12 hours overnight fasting required. Full bladder needed for abdominal ultrasound.",
+      "turnaroundTime": "24 Hours",
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "pkg-senior",
+      "slug": "gokul-senior-citizen-vitality-package",
+      "name": "Gokul Senior Citizen Care Package (60+ Years)",
+      "targetAudience": "Men and women aged 60 years and above",
+      "priceInr": 3999,
+      "discountedPriceInr": 3199,
+      "includedTests": [
+        "CBC, ESR, Fasting Blood Sugar & HbA1c",
+        "Renal Function, Electrolytes & Serum Calcium",
+        "Lipid Profile & Thyroid Function (TSH)",
+        "PSA Screening (for Men) / Pap Smear or Mammogram Guidance (for Women)",
+        "12-Lead ECG & Chest Digital X-Ray",
+        "Bone & Joint Orthopedic Consultation",
+        "Ophthalmology Vision & Cataract Check",
+        "Physiotherapy Mobility Assessment"
+      ],
+      "preparationInstructions": "10–12 hours fasting recommended. Accompanied by a family member if mobility support is needed.",
+      "turnaroundTime": "Same Day / 24 Hours",
+      "isActive": true,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "packageBookings": [],
+  "medicalRecords": [
+    {
+      "id": "mr-1",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "appointmentId": "appt-1000",
+      "visitDate": "2026-10-27",
+      "diagnosis": "Stage 1 Essential Hypertension (Controlled)",
+      "clinicalNotes": "Patient presented for baseline cardiac checkup. Resting 12-lead ECG shows normal sinus rhythm (HR 74 bpm). Advised low-sodium DASH diet, 30 mins brisk walking daily, and morning blood pressure monitoring.",
+      "vitalSigns": {
+        "bloodPressure": "132/84 mmHg",
+        "heartRate": "74 bpm",
+        "temperature": "98.4 °F",
+        "weightKg": "74.5 kg",
+        "spo2": "99%"
+      },
+      "followUpDate": "2026-11-02",
+      "createdAt": "2026-10-27",
+      "updatedAt": "2026-10-27"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx-mvxl3byn-9f96d6",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T08:44:33.743Z"
+    },
+    {
+      "id": "rx-mvxh6eu0-a98cab",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T06:54:58.968Z"
+    },
+    {
+      "id": "rx-mvxgylm7-ddd9bb",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T06:48:54.511Z"
+    },
+    {
+      "id": "rx-mvxfhryg-2bfa56",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T06:07:49.960Z"
+    },
+    {
+      "id": "rx-mvxeyk6i-a4c5e9",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T05:52:53.418Z"
+    },
+    {
+      "id": "rx-mvxbu8c3-0bdcb3",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T04:25:32.595Z"
+    },
+    {
+      "id": "rx-mvxb42wt-59b8ae",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "issuedDate": "2026-11-01",
+      "diagnosis": "Mild Essential Hypertension",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 40mg",
+          "dosage": "1-0-0",
+          "frequency": "Once daily morning",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast"
+        }
+      ],
+      "generalAdvice": "Low sodium diet and 30 minutes brisk walk daily.",
+      "createdAt": "2026-11-01T04:05:12.509Z"
+    },
+    {
+      "id": "rx-1",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "departmentName": "Cardiology",
+      "appointmentId": "appt-1000",
+      "issuedDate": "2026-10-27",
+      "diagnosis": "Stage 1 Essential Hypertension & Vitamin D3 Insufficiency",
+      "medications": [
+        {
+          "medicineName": "Tab. Telmisartan 20 mg",
+          "dosage": "20 mg",
+          "frequency": "Once Daily (Morning)",
+          "duration": "30 Days",
+          "instructions": "Take after breakfast with water."
+        },
+        {
+          "medicineName": "Cholecalciferol (Vitamin D3) 60,000 IU",
+          "dosage": "1 Sachet / Capsule",
+          "frequency": "Once Weekly",
+          "duration": "8 Weeks",
+          "instructions": "Take with milk after lunch on Sundays."
+        }
+      ],
+      "generalAdvice": "Restrict dietary salt to < 5g/day. Maintain 7–8 hours of sleep. Repeat BP check in 2 weeks.",
+      "createdAt": "2026-10-27"
+    }
+  ],
+  "labReports": [
+    {
+      "id": "lab-mvxl3bz0-66f4c0",
+      "reportNumber": "GKH-LAB-2026-4795",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T08:44:33.756Z"
+    },
+    {
+      "id": "lab-mvxh6eu8-39e953",
+      "reportNumber": "GKH-LAB-2026-7085",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T06:54:58.976Z"
+    },
+    {
+      "id": "lab-mvxgylme-cb9598",
+      "reportNumber": "GKH-LAB-2026-8688",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T06:48:54.518Z"
+    },
+    {
+      "id": "lab-mvxfhrym-a2e548",
+      "reportNumber": "GKH-LAB-2026-9109",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T06:07:49.966Z"
+    },
+    {
+      "id": "lab-mvxeyk6p-ffb5b0",
+      "reportNumber": "GKH-LAB-2026-9219",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T05:52:53.425Z"
+    },
+    {
+      "id": "lab-mvxbu8cb-6604bd",
+      "reportNumber": "GKH-LAB-2026-4239",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T04:25:32.603Z"
+    },
+    {
+      "id": "lab-mvxb42wy-b2a315",
+      "reportNumber": "GKH-LAB-2026-4439",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & HbA1c",
+      "category": "Biochemistry",
+      "sampleDate": "2026-11-01",
+      "reportDate": "2026-11-01",
+      "status": "Verified",
+      "summaryResult": "Total Cholesterol: 178 mg/dL (Normal), HbA1c: 5.5% (Normal)",
+      "parameters": [
+        {
+          "parameter": "",
+          "observedValue": "178 mg/dL",
+          "unit": "",
+          "referenceRange": "200 mg/dL"
+        }
+      ],
+      "fileName": "Lipid_Profile_Aarav.pdf",
+      "uploadedByRole": "doctor",
+      "createdAt": "2026-11-01T04:05:12.514Z"
+    },
+    {
+      "id": "lab-1",
+      "reportNumber": "GKH-LAB-2026-0891",
+      "patientId": "user-patient-1",
+      "patientName": "Aarav Patel",
+      "orderedByDoctorName": "Dr. Rajeshwar Sharma",
+      "testName": "Complete Lipid Profile & Fasting Glucose",
+      "category": "Biochemistry",
+      "sampleDate": "2026-10-27",
+      "reportDate": "2026-10-27",
+      "status": "Verified",
+      "summaryResult": "Fasting Blood Glucose within normal limits. Mildly borderline LDL cholesterol.",
+      "parameters": [
+        {
+          "parameter": "Fasting Blood Glucose (FBS)",
+          "observedValue": "92",
+          "unit": "mg/dL",
+          "referenceRange": "70 – 100"
+        },
+        {
+          "parameter": "Total Cholesterol",
+          "observedValue": "188",
+          "unit": "mg/dL",
+          "referenceRange": "< 200"
+        },
+        {
+          "parameter": "Triglycerides",
+          "observedValue": "134",
+          "unit": "mg/dL",
+          "referenceRange": "< 150"
+        },
+        {
+          "parameter": "HDL Cholesterol",
+          "observedValue": "48",
+          "unit": "mg/dL",
+          "referenceRange": "> 40"
+        },
+        {
+          "parameter": "LDL Cholesterol",
+          "observedValue": "113",
+          "unit": "mg/dL",
+          "referenceRange": "< 100"
+        }
+      ],
+      "uploadedByRole": "admin",
+      "createdAt": "2026-10-27"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-mvxl3bzc-6e1572",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1011",
+      "message": "Appointment GKH-2026-1011 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxl3by1-2dd638",
+      "createdAt": "2026-11-01T08:44:33.768Z"
+    },
+    {
+      "id": "notif-mvxl3bz6-d485a1",
+      "userId": "user-patient-1",
+      "title": "Demo Payment Simulated — GKH-2026-1011",
+      "message": "Simulated test payment (DEMO-SIM-RZP-673762 (Demo UPI Test · DEMO TEST ONLY)) recorded for ₹800. Note: Demo Mode simulation only, not a real payment. Simulated confirmation email generated for patient@gokulhospital.in.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-mvxl3by1-2dd638",
+      "createdAt": "2026-11-01T08:44:33.762Z"
+    },
+    {
+      "id": "notif-mvxl3bz0-0a7d4d",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-4795",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxl3bz0-66f4c0",
+      "createdAt": "2026-11-01T08:44:33.756Z"
+    },
+    {
+      "id": "notif-mvxl3byn-7bce4f",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxl3byn-9f96d6",
+      "createdAt": "2026-11-01T08:44:33.743Z"
+    },
+    {
+      "id": "notif-mvxl3bya-7526e3",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1011",
+      "message": "Appointment GKH-2026-1011 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxl3by1-2dd638",
+      "createdAt": "2026-11-01T08:44:33.730Z"
+    },
+    {
+      "id": "notif-mvxl3by1-5f409c",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1011",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxl3by1-2dd638",
+      "createdAt": "2026-11-01T08:44:33.721Z"
+    },
+    {
+      "id": "notif-mvxl3by1-cea551",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1011",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxl3by1-2dd638",
+      "createdAt": "2026-11-01T08:44:33.721Z"
+    },
+    {
+      "id": "notif-mvxl3by1-1d841c",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked & Demo Email Simulated — GKH-2026-1011",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM is recorded (Pending). [DEMO EMAIL MODE: Confirmation email simulated to patient@gokulhospital.in].",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxl3by1-2dd638",
+      "createdAt": "2026-11-01T08:44:33.721Z"
+    },
+    {
+      "id": "notif-mvxh6eus-b91cb2",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1010",
+      "message": "Appointment GKH-2026-1010 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxh6etf-a02576",
+      "createdAt": "2026-11-01T06:54:58.996Z"
+    },
+    {
+      "id": "notif-mvxh6eum-f24d28",
+      "userId": "user-patient-1",
+      "title": "Demo Payment Simulated — GKH-2026-1010",
+      "message": "Simulated test payment (DEMO-SIM-RZP-098990 (Demo UPI Test · DEMO TEST ONLY)) recorded for ₹800. Note: Demo Mode simulation only, not a real payment. Simulated confirmation email generated for patient@gokulhospital.in.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-mvxh6etf-a02576",
+      "createdAt": "2026-11-01T06:54:58.990Z"
+    },
+    {
+      "id": "notif-mvxh6eu8-988c14",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-7085",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxh6eu8-39e953",
+      "createdAt": "2026-11-01T06:54:58.976Z"
+    },
+    {
+      "id": "notif-mvxh6eu1-fb5c4c",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxh6eu0-a98cab",
+      "createdAt": "2026-11-01T06:54:58.968Z"
+    },
+    {
+      "id": "notif-mvxh6eto-5c6060",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1010",
+      "message": "Appointment GKH-2026-1010 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxh6etf-a02576",
+      "createdAt": "2026-11-01T06:54:58.956Z"
+    },
+    {
+      "id": "notif-mvxh6etf-4481fd",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1010",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxh6etf-a02576",
+      "createdAt": "2026-11-01T06:54:58.947Z"
+    },
+    {
+      "id": "notif-mvxh6etf-03a0ca",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1010",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxh6etf-a02576",
+      "createdAt": "2026-11-01T06:54:58.947Z"
+    },
+    {
+      "id": "notif-mvxh6etf-7af48e",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked & Demo Email Simulated — GKH-2026-1010",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM is recorded (Pending). [DEMO EMAIL MODE: Confirmation email simulated to patient@gokulhospital.in].",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxh6etf-a02576",
+      "createdAt": "2026-11-01T06:54:58.947Z"
+    },
+    {
+      "id": "notif-mvxgylmx-8fb4bb",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1009",
+      "message": "Appointment GKH-2026-1009 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxgylle-38db29",
+      "createdAt": "2026-11-01T06:48:54.537Z"
+    },
+    {
+      "id": "notif-mvxgylmr-14e3be",
+      "userId": "user-patient-1",
+      "title": "Demo Payment Simulated — GKH-2026-1009",
+      "message": "Simulated test payment (DEMO-SIM-RZP-734531 (Demo UPI Test · DEMO TEST ONLY)) recorded for ₹800. Note: Demo Mode simulation only, not a real payment. Simulated confirmation email generated for patient@gokulhospital.in.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-mvxgylle-38db29",
+      "createdAt": "2026-11-01T06:48:54.531Z"
+    },
+    {
+      "id": "notif-mvxgylme-508bb7",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-8688",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxgylme-cb9598",
+      "createdAt": "2026-11-01T06:48:54.518Z"
+    },
+    {
+      "id": "notif-mvxgylm7-de4db1",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxgylm7-ddd9bb",
+      "createdAt": "2026-11-01T06:48:54.511Z"
+    },
+    {
+      "id": "notif-mvxgyllr-8ff63c",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1009",
+      "message": "Appointment GKH-2026-1009 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxgylle-38db29",
+      "createdAt": "2026-11-01T06:48:54.495Z"
+    },
+    {
+      "id": "notif-mvxgylle-9f8cfb",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1009",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxgylle-38db29",
+      "createdAt": "2026-11-01T06:48:54.482Z"
+    },
+    {
+      "id": "notif-mvxgylle-555432",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1009",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxgylle-38db29",
+      "createdAt": "2026-11-01T06:48:54.482Z"
+    },
+    {
+      "id": "notif-mvxgylle-975ca9",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked & Demo Email Simulated — GKH-2026-1009",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM is recorded (Pending). [DEMO EMAIL MODE: Confirmation email simulated to patient@gokulhospital.in].",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxgylle-38db29",
+      "createdAt": "2026-11-01T06:48:54.482Z"
+    },
+    {
+      "id": "notif-mvxfhrz6-bdb2bc",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1008",
+      "message": "Appointment GKH-2026-1008 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxfhrxx-96f848",
+      "createdAt": "2026-11-01T06:07:49.986Z"
+    },
+    {
+      "id": "notif-mvxfhrz0-3b5f09",
+      "userId": "user-patient-1",
+      "title": "Demo Payment Simulated — GKH-2026-1008",
+      "message": "Simulated test payment (DEMO-SIM-RZP-269980 (Demo UPI Test · DEMO TEST ONLY)) recorded for ₹800. Note: Demo Mode simulation only, not a real payment. Simulated confirmation email generated for patient@gokulhospital.in.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-mvxfhrxx-96f848",
+      "createdAt": "2026-11-01T06:07:49.980Z"
+    },
+    {
+      "id": "notif-mvxfhrym-41a993",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-9109",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxfhrym-a2e548",
+      "createdAt": "2026-11-01T06:07:49.966Z"
+    },
+    {
+      "id": "notif-mvxfhryg-860010",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxfhryg-2bfa56",
+      "createdAt": "2026-11-01T06:07:49.960Z"
+    },
+    {
+      "id": "notif-mvxfhry5-70cbe3",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1008",
+      "message": "Appointment GKH-2026-1008 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxfhrxx-96f848",
+      "createdAt": "2026-11-01T06:07:49.949Z"
+    },
+    {
+      "id": "notif-mvxfhrxx-969d75",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1008",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxfhrxx-96f848",
+      "createdAt": "2026-11-01T06:07:49.941Z"
+    },
+    {
+      "id": "notif-mvxfhrxx-62e7af",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1008",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxfhrxx-96f848",
+      "createdAt": "2026-11-01T06:07:49.941Z"
+    },
+    {
+      "id": "notif-mvxfhrxx-202d15",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked & Demo Email Simulated — GKH-2026-1008",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM is recorded (Pending). [DEMO EMAIL MODE: Confirmation email simulated to patient@gokulhospital.in].",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxfhrxx-96f848",
+      "createdAt": "2026-11-01T06:07:49.941Z"
+    },
+    {
+      "id": "notif-mvxeyk7t-d24593",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1007",
+      "message": "Appointment GKH-2026-1007 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxeyk5q-942d69",
+      "createdAt": "2026-11-01T05:52:53.465Z"
+    },
+    {
+      "id": "notif-mvxeyk7n-2c7f78",
+      "userId": "user-patient-1",
+      "title": "Demo Payment Simulated — GKH-2026-1007",
+      "message": "Simulated test payment (DEMO-SIM-RZP-373459 (Demo UPI Test · DEMO TEST ONLY)) recorded for ₹800. Note: Demo Mode simulation only, not a real payment. Simulated confirmation email generated for patient@gokulhospital.in.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-mvxeyk5q-942d69",
+      "createdAt": "2026-11-01T05:52:53.459Z"
+    },
+    {
+      "id": "notif-mvxeyk6p-10424a",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-9219",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxeyk6p-ffb5b0",
+      "createdAt": "2026-11-01T05:52:53.425Z"
+    },
+    {
+      "id": "notif-mvxeyk6i-4d2711",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxeyk6i-a4c5e9",
+      "createdAt": "2026-11-01T05:52:53.418Z"
+    },
+    {
+      "id": "notif-mvxeyk60-d36152",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1007",
+      "message": "Appointment GKH-2026-1007 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxeyk5q-942d69",
+      "createdAt": "2026-11-01T05:52:53.400Z"
+    },
+    {
+      "id": "notif-mvxeyk5q-2a8c3a",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1007",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxeyk5q-942d69",
+      "createdAt": "2026-11-01T05:52:53.390Z"
+    },
+    {
+      "id": "notif-mvxeyk5q-4634df",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1007",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxeyk5q-942d69",
+      "createdAt": "2026-11-01T05:52:53.390Z"
+    },
+    {
+      "id": "notif-mvxeyk5q-7f7a97",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked & Demo Email Simulated — GKH-2026-1007",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM is recorded (Pending). [DEMO EMAIL MODE: Confirmation email simulated to patient@gokulhospital.in].",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxeyk5q-942d69",
+      "createdAt": "2026-11-01T05:52:53.390Z"
+    },
+    {
+      "id": "notif-mvxbu8ct-7217e6",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1006",
+      "message": "Appointment GKH-2026-1006 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxbu8bi-d46193",
+      "createdAt": "2026-11-01T04:25:32.621Z"
+    },
+    {
+      "id": "notif-mvxbu8co-87bec4",
+      "userId": "user-patient-1",
+      "title": "Demo Payment Simulated — GKH-2026-1006",
+      "message": "Simulated test payment (DEMO-SIM-RZP-132616 (Demo UPI Test · DEMO TEST ONLY)) recorded for ₹800. Note: Demo Mode simulation only, not a real payment. Simulated confirmation email generated for patient@gokulhospital.in.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-mvxbu8bi-d46193",
+      "createdAt": "2026-11-01T04:25:32.616Z"
+    },
+    {
+      "id": "notif-mvxbu8cb-f222b7",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-4239",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxbu8cb-6604bd",
+      "createdAt": "2026-11-01T04:25:32.603Z"
+    },
+    {
+      "id": "notif-mvxbu8c4-8e2a76",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxbu8c3-0bdcb3",
+      "createdAt": "2026-11-01T04:25:32.595Z"
+    },
+    {
+      "id": "notif-mvxbu8br-94f542",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1006",
+      "message": "Appointment GKH-2026-1006 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxbu8bi-d46193",
+      "createdAt": "2026-11-01T04:25:32.583Z"
+    },
+    {
+      "id": "notif-mvxbu8bj-04a259",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1006",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxbu8bi-d46193",
+      "createdAt": "2026-11-01T04:25:32.574Z"
+    },
+    {
+      "id": "notif-mvxbu8bj-76fd88",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1006",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxbu8bi-d46193",
+      "createdAt": "2026-11-01T04:25:32.574Z"
+    },
+    {
+      "id": "notif-mvxbu8bj-236621",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked & Demo Email Simulated — GKH-2026-1006",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM is recorded (Pending). [DEMO EMAIL MODE: Confirmation email simulated to patient@gokulhospital.in].",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxbu8bi-d46193",
+      "createdAt": "2026-11-01T04:25:32.574Z"
+    },
+    {
+      "id": "notif-mvxb42xa-87e740",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1005",
+      "message": "Appointment GKH-2026-1005 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Automated integration test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxb42w8-67e790",
+      "createdAt": "2026-11-01T04:05:12.526Z"
+    },
+    {
+      "id": "notif-mvxb42wy-246778",
+      "userId": "user-patient-1",
+      "title": "Lab Report Verified — GKH-LAB-2026-4439",
+      "message": "Your diagnostic report for Complete Lipid Profile & HbA1c is now verified and ready for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-mvxb42wy-b2a315",
+      "createdAt": "2026-11-01T04:05:12.514Z"
+    },
+    {
+      "id": "notif-mvxb42wt-90bd24",
+      "userId": "user-patient-1",
+      "title": "New Prescription Issued by Dr. Rajeshwar Sharma",
+      "message": "A new digital prescription for \"Mild Essential Hypertension\" is available in your Patient Portal.",
+      "eventType": "PRESCRIPTION_ISSUED",
+      "isRead": false,
+      "relatedId": "rx-mvxb42wt-59b8ae",
+      "createdAt": "2026-11-01T04:05:12.509Z"
+    },
+    {
+      "id": "notif-mvxb42wh-3e34d1",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1005",
+      "message": "Appointment GKH-2026-1005 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxb42w8-67e790",
+      "createdAt": "2026-11-01T04:05:12.497Z"
+    },
+    {
+      "id": "notif-mvxb42w8-6278e1",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1005",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb42w8-67e790",
+      "createdAt": "2026-11-01T04:05:12.488Z"
+    },
+    {
+      "id": "notif-mvxb42w8-400e05",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1005",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb42w8-67e790",
+      "createdAt": "2026-11-01T04:05:12.488Z"
+    },
+    {
+      "id": "notif-mvxb42w8-68462c",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked — GKH-2026-1005",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM has been recorded with status: Pending.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb42w8-67e790",
+      "createdAt": "2026-11-01T04:05:12.488Z"
+    },
+    {
+      "id": "notif-mvxb42w0-70edb4",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1003",
+      "message": "Appointment GKH-2026-1003 with Dr. Rajeshwar Sharma on 2026-12-14 (11:00 AM) was cancelled. Reason: Pre-test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxb2ldg-75c455",
+      "createdAt": "2026-11-01T04:05:12.480Z"
+    },
+    {
+      "id": "notif-mvxb42vu-cda018",
+      "userId": "user-patient-1",
+      "title": "Appointment Cancelled — GKH-2026-1004",
+      "message": "Appointment GKH-2026-1004 with Dr. Rajeshwar Sharma on 2026-12-14 (10:30 AM) was cancelled. Reason: Pre-test cleanup",
+      "eventType": "APPOINTMENT_CANCELLATION",
+      "isRead": false,
+      "relatedId": "appt-mvxb3g5c-2b9ac0",
+      "createdAt": "2026-11-01T04:05:12.474Z"
+    },
+    {
+      "id": "notif-mvxb3g5c-56b0a8",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1004",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb3g5c-2b9ac0",
+      "createdAt": "2026-11-01T04:04:43.008Z"
+    },
+    {
+      "id": "notif-mvxb3g5c-a0d4ca",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1004",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb3g5c-2b9ac0",
+      "createdAt": "2026-11-01T04:04:43.008Z"
+    },
+    {
+      "id": "notif-mvxb3g5c-e61d41",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked — GKH-2026-1004",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM has been recorded with status: Pending.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb3g5c-2b9ac0",
+      "createdAt": "2026-11-01T04:04:43.008Z"
+    },
+    {
+      "id": "notif-mvxb2lem-d2dd15",
+      "userId": "user-patient-1",
+      "title": "Appointment Rescheduled — GKH-2026-1003",
+      "message": "Appointment GKH-2026-1003 with Dr. Rajeshwar Sharma moved from 2026-12-14 10:30 AM to 2026-12-14 at 11:00 AM.",
+      "eventType": "APPOINTMENT_RESCHEDULED",
+      "isRead": false,
+      "relatedId": "appt-mvxb2ldg-75c455",
+      "createdAt": "2026-11-01T04:04:03.166Z"
+    },
+    {
+      "id": "notif-mvxb2ldg-d4e97c",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "New Appointment GKH-2026-1003",
+      "message": "Aarav Patel booked Dr. Rajeshwar Sharma (Cardiology) for 2026-12-14 at 10:30 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb2ldg-75c455",
+      "createdAt": "2026-11-01T04:04:03.124Z"
+    },
+    {
+      "id": "notif-mvxb2ldg-f47563",
+      "userId": "user-doctor-1",
+      "title": "New Appointment — GKH-2026-1003",
+      "message": "Patient Aarav Patel booked 2026-12-14 at 10:30 AM for: Routine cardiac evaluation and blood pressure check.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb2ldg-75c455",
+      "createdAt": "2026-11-01T04:04:03.124Z"
+    },
+    {
+      "id": "notif-mvxb2ldg-bc48d5",
+      "userId": "user-patient-1",
+      "title": "Appointment Booked — GKH-2026-1003",
+      "message": "Your appointment with Dr. Rajeshwar Sharma (Cardiology) on 2026-12-14 at 10:30 AM has been recorded with status: Pending.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-mvxb2ldg-75c455",
+      "createdAt": "2026-11-01T04:04:03.124Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "user-patient-1",
+      "title": "Appointment Confirmed — GKH-2026-1001",
+      "message": "Your Cardiology consultation with Dr. Rajeshwar Sharma on 2026-11-02 at 10:00 AM is confirmed.",
+      "eventType": "APPOINTMENT_CONFIRMATION",
+      "isRead": false,
+      "relatedId": "appt-1001",
+      "createdAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "user-patient-1",
+      "title": "Lab Report Ready — GKH-LAB-2026-0891",
+      "message": "Your Complete Lipid Profile & Fasting Glucose report has been verified and is available for download.",
+      "eventType": "LAB_REPORT_READY",
+      "isRead": false,
+      "relatedId": "lab-1",
+      "createdAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "user-doctor-1",
+      "title": "Upcoming Consultation — Aarav Patel",
+      "message": "Confirmed Cardiology appointment GKH-2026-1001 scheduled for 2026-11-02 at 10:00 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-1001",
+      "createdAt": "2026-11-01T04:01:19.559Z"
+    },
+    {
+      "id": "notif-4",
+      "userId": "ROLE:receptionist",
+      "targetRole": "receptionist",
+      "title": "OPD Pending Confirmation — GKH-2026-1002",
+      "message": "Patient Aarav Patel booked General Medicine appointment GKH-2026-1002 for 2026-11-05 at 11:00 AM.",
+      "eventType": "APPOINTMENT_BOOKING",
+      "isRead": false,
+      "relatedId": "appt-1002",
+      "createdAt": "2026-11-01T04:01:19.559Z"
+    }
+  ],
+  "inquiries": [],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "patientName": "Rameshchandra Joshi (Demo Feedback)",
+      "patientRoleOrCity": "Outpatient Cardiology Visit",
+      "departmentName": "Cardiology",
+      "doctorName": "Dr. Rajeshwar Sharma",
+      "treatmentSummary": "Hypertension & Cardiac Evaluation",
+      "outcomeQuote": "Sample demonstration testimonial: The online appointment booking at Gokul Hospital saved us waiting time, and the ECG and Echo diagnostics were completed on the same floor cleanly and transparently.",
+      "isDemoContent": true,
+      "isApproved": true,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "test-2",
+      "patientName": "Priya & Kunal Desai (Demo Feedback)",
+      "patientRoleOrCity": "Pediatric Immunization Visit",
+      "departmentName": "Pediatrics",
+      "doctorName": "Dr. Meera Krishnan",
+      "treatmentSummary": "Well-Baby & Vaccination Clinic",
+      "outcomeQuote": "Sample demonstration testimonial: Having digital prescription and vaccination records accessible inside the Gokul Hospital Patient Dashboard makes tracking our child’s checkups effortless.",
+      "isDemoContent": true,
+      "isApproved": true,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "test-3",
+      "patientName": "Sureshbhai Parmar (Demo Feedback)",
+      "patientRoleOrCity": "Orthopedic Rehabilitation",
+      "departmentName": "Orthopedics",
+      "doctorName": "Dr. Vikramaditya Patel",
+      "treatmentSummary": "Knee Pain & Physiotherapy Care",
+      "outcomeQuote": "Sample demonstration testimonial: Coordinated consultation between the Orthopedic specialist and the Physiotherapy unit helped me regain comfortable walking mobility without unnecessary procedures.",
+      "isDemoContent": true,
+      "isApproved": true,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "slug": "understanding-preventive-heart-screenings",
+      "title": "Understanding Preventive Heart Screenings: When to Schedule Your First Cardiac Check",
+      "category": "Cardiology & Prevention",
+      "authorName": "Dr. Rajeshwar Sharma (Demo Profile)",
+      "authorRole": "Department of Cardiology, Gokul Hospital",
+      "readTimeMinutes": 5,
+      "excerpt": "Regular monitoring of blood pressure, fasting lipid profiles, and HbA1c helps identify cardiovascular risk factors long before symptoms appear.",
+      "contentSections": [
+        {
+          "heading": "Why Baseline Cardiac Screening Matters",
+          "body": "High blood pressure and elevated LDL cholesterol frequently progress without noticeable symptoms. Establishing a baseline lipid profile, fasting blood sugar, and resting 12-lead ECG in early adulthood enables timely dietary and lifestyle interventions."
+        },
+        {
+          "heading": "Key Tests in a Preventive Cardiac Evaluation",
+          "body": "A structured evaluation typically includes blood pressure measurement, Complete Lipid Profile, HbA1c, resting ECG, and—when clinically indicated by a physician—2D Echocardiography or a Treadmill Stress Test (TMT)."
+        },
+        {
+          "heading": "Warning Signs That Require Immediate Emergency Care",
+          "body": "Never wait for an outpatient appointment if you experience central chest pressure, pain radiating to the left arm or jaw, sudden shortness of breath, or unexplained sweating. Proceed immediately to a 24/7 Emergency Department."
+        }
+      ],
+      "medicalDisclaimer": "Educational information only. This article does not constitute medical diagnosis or treatment advice. Please consult a qualified physician at Gokul Hospital for personalized evaluation.",
+      "isPublished": true,
+      "publishedAt": "2026-10-15T09:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "blog-2",
+      "slug": "managing-seasonal-infections-and-hydration-in-children",
+      "title": "Managing Seasonal Viral Fevers and Hydration in Children: A Parent’s Clinical Guide",
+      "category": "Pediatrics",
+      "authorName": "Dr. Meera Krishnan (Demo Profile)",
+      "authorRole": "Department of Pediatrics, Gokul Hospital",
+      "readTimeMinutes": 4,
+      "excerpt": "Learn how to monitor hydration, temperature patterns, and red-flag symptoms during seasonal weather changes, and why self-medication with antibiotics should be avoided.",
+      "contentSections": [
+        {
+          "heading": "Supporting Hydration and Rest",
+          "body": "Most seasonal upper respiratory infections are viral and self-limiting. Offering frequent oral fluids, WHO-approved Oral Rehydration Solution (ORS) when needed, and light home-cooked meals supports recovery."
+        },
+        {
+          "heading": "Why Antibiotics Should Never Be Used Without Prescription",
+          "body": "Antibiotics target bacterial infections and have no effect against viral fevers. Unsupervised antibiotic use can cause gastrointestinal side effects and contribute to antimicrobial resistance."
+        },
+        {
+          "heading": "When to Consult a Pediatrician Promptly",
+          "body": "Seek medical evaluation immediately if a child has persistent high fever beyond 3 days, lethargy, rapid breathing, refusal to take fluids, or reduced urine output."
+        }
+      ],
+      "medicalDisclaimer": "Educational information only. Always consult a qualified pediatrician before giving any medication to infants or children.",
+      "isPublished": true,
+      "publishedAt": "2026-10-20T09:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "blog-3",
+      "slug": "ergonomics-and-spine-health-for-desk-professionals",
+      "title": "Ergonomics, Posture, and Spine Health for Desk Professionals",
+      "category": "Orthopedics & Physiotherapy",
+      "authorName": "Dr. Vikramaditya Patel (Demo Profile)",
+      "authorRole": "Department of Orthopedics, Gokul Hospital",
+      "readTimeMinutes": 6,
+      "excerpt": "Simple workstation adjustments, micro-breaks every 45 minutes, and core strengthening exercises can prevent chronic cervical and lumbar strain.",
+      "contentSections": [
+        {
+          "heading": "The Impact of Prolonged Sitting on the Lumbar Spine",
+          "body": "Sitting with a slouched posture increases intradiscal pressure in the lower back and strains neck extensors. Positioning the monitor at eye level and keeping feet flat on the floor reduces mechanical stress."
+        },
+        {
+          "heading": "The 45-Minute Micro-Break Rule",
+          "body": "Standing up for 2–3 minutes of gentle stretching and walking every 45 minutes restores circulation to paraspinal muscles and reduces stiffness."
+        }
+      ],
+      "medicalDisclaimer": "Educational content only. If you experience radiating leg pain, numbness, or weakness, schedule a clinical orthopedic evaluation.",
+      "isPublished": true,
+      "publishedAt": "2026-10-25T09:00:00.000Z",
+      "updatedAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Main Reception & Outpatient Atrium (Architectural Preview)",
+      "category": "Infrastructure",
+      "description": "Spacious, wheelchair-accessible reception lobby with digital appointment token display and patient helpdesk.",
+      "floorLocation": "Ground Floor",
+      "isVerifiedFacility": false,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "gal-2",
+      "title": "HEPA-Filtered Modular Operation Theatre Suite",
+      "category": "OperationTheatres",
+      "description": "Sterile surgical environment equipped with laminar airflow, anesthesia workstation, and multipara monitoring.",
+      "floorLocation": "1st Floor, Surgical Wing",
+      "isVerifiedFacility": false,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "gal-3",
+      "title": "Digital Radiology & Ultrasound Suite",
+      "category": "Diagnostics",
+      "description": "Ground-floor imaging suite housing digital radiography, 2D Echo, and Color Doppler ultrasound.",
+      "floorLocation": "Ground Floor, Diagnostic Block",
+      "isVerifiedFacility": false,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "gal-4",
+      "title": "Private Recovery Suite & Inpatient Ward",
+      "category": "PatientRooms",
+      "description": "Clean, sunlit inpatient rooms with adjustable Fowler beds, central oxygen, and nurse call systems.",
+      "floorLocation": "2nd Floor, Inpatient Block",
+      "isVerifiedFacility": false,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "gal-5",
+      "title": "24/7 Emergency & Trauma Triage Bay",
+      "category": "Emergency",
+      "description": "Dedicated ambulance bay entrance with rapid resuscitation equipment and critical care monitors.",
+      "floorLocation": "Ground Floor, Emergency Gate",
+      "isVerifiedFacility": false,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "id": "gal-6",
+      "title": "Automated Clinical Pathology Laboratory",
+      "category": "Diagnostics",
+      "description": "Barcoded sample processing unit for biochemistry, hematology, and clinical pathology.",
+      "floorLocation": "Ground Floor, Lab Wing",
+      "isVerifiedFacility": false,
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "websiteSettings": {
+    "hospitalName": "GOKUL HOSPITAL",
+    "tagline": "Quality Healthcare & Advanced Medical Services",
+    "heroHeadline": "Your Health, Our Priority.",
+    "heroSubheading": "Compassionate Care. Advanced Technology. Better Healthcare for Everyone.",
+    "aboutSummary": "Gokul Hospital is a multi-specialty healthcare institution dedicated to clinical excellence, transparent patient care, and modern diagnostic and surgical procedures. All contact details, schedules, and clinical profiles below are configurable through the Hospital Administration Console.",
+    "missionStatement": "To deliver ethical, accessible, and evidence-based medical care to every patient through interdisciplinary collaboration, modern diagnostic technology, and compassionate clinical support.",
+    "visionStatement": "To be a trusted regional multi-specialty healthcare center recognized for clinical safety, transparent medical governance, and patient-first healing environments.",
+    "addressLine1": "[Editable Placeholder: Main Hospital Road, Healthcare Sector]",
+    "cityStatePin": "[Editable Placeholder: City, State - 000000, India]",
+    "country": "India",
+    "contactPhone": "+91-00000-00000 (Demo Reception)",
+    "emergencyPhone": "+91-00000-10800 (24/7 Emergency Demo Line)",
+    "ambulancePhone": "108 / +91-00000-10200 (Demo Ambulance)",
+    "emailAddress": "info@gokulhospital.example.in",
+    "supportEmail": "appointments@gokulhospital.example.in",
+    "opdHours": "Mon – Sat: 08:30 AM – 08:00 PM | Sun: 09:00 AM – 01:00 PM",
+    "visitingHours": "Morning: 11:00 AM – 12:00 PM | Evening: 05:00 PM – 07:00 PM",
+    "emergencyHours": "24 Hours × 7 Days (Emergency, Trauma, ICU & Pharmacy)",
+    "currencyCode": "INR",
+    "currencySymbol": "₹",
+    "cancellationWindowHours": 4,
+    "allowRescheduling": true,
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://x.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com"
+    },
+    "isPlaceholderContactInfo": true,
+    "updatedAt": "2026-10-31T10:00:00.000Z"
+  },
+  "auditLogs": [
+    {
+      "id": "audit-mvxl3bzc-9dcfaa",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxl3by1-2dd638",
+      "details": "Cancelled GKH-2026-1011. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T08:44:33.768Z"
+    },
+    {
+      "id": "audit-mvxl3bz6-35e0df",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "DEMO_PAYMENT_SIMULATED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxl3by1-2dd638",
+      "details": "Simulated demo payment DEMO-SIM-RZP-673762 (Demo UPI Test · DEMO TEST ONLY) for ₹800 (No real charge).",
+      "createdAt": "2026-11-01T08:44:33.762Z"
+    },
+    {
+      "id": "audit-mvxl3bz0-57cc96",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxl3bz0-66f4c0",
+      "details": "Uploaded lab report GKH-LAB-2026-4795 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T08:44:33.756Z"
+    },
+    {
+      "id": "audit-mvxl3byn-2554b9",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxl3byn-9f96d6",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T08:44:33.743Z"
+    },
+    {
+      "id": "audit-mvxl3bya-38c7ff",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxl3by1-2dd638",
+      "details": "Rescheduled GKH-2026-1011 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T08:44:33.730Z"
+    },
+    {
+      "id": "audit-mvxl3by1-0691c7",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxl3by1-2dd638",
+      "details": "Booked GKH-2026-1011 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T08:44:33.721Z"
+    },
+    {
+      "id": "audit-mvxl3bx8-b0619b",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T08:44:33.692Z"
+    },
+    {
+      "id": "audit-mvxl3bvr-4e9f8c",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T08:44:33.639Z"
+    },
+    {
+      "id": "audit-mvxl3bu9-ec2a16",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T08:44:33.585Z"
+    },
+    {
+      "id": "audit-mvxl3bsf-477588",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T08:44:33.519Z"
+    },
+    {
+      "id": "audit-mvxh6eus-544921",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxh6etf-a02576",
+      "details": "Cancelled GKH-2026-1010. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T06:54:58.996Z"
+    },
+    {
+      "id": "audit-mvxh6eum-061fb8",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "DEMO_PAYMENT_SIMULATED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxh6etf-a02576",
+      "details": "Simulated demo payment DEMO-SIM-RZP-098990 (Demo UPI Test · DEMO TEST ONLY) for ₹800 (No real charge).",
+      "createdAt": "2026-11-01T06:54:58.990Z"
+    },
+    {
+      "id": "audit-mvxh6eu8-6ae402",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxh6eu8-39e953",
+      "details": "Uploaded lab report GKH-LAB-2026-7085 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T06:54:58.976Z"
+    },
+    {
+      "id": "audit-mvxh6eu1-6cd450",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxh6eu0-a98cab",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T06:54:58.969Z"
+    },
+    {
+      "id": "audit-mvxh6eto-f1201b",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxh6etf-a02576",
+      "details": "Rescheduled GKH-2026-1010 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T06:54:58.956Z"
+    },
+    {
+      "id": "audit-mvxh6etf-7ffccb",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxh6etf-a02576",
+      "details": "Booked GKH-2026-1010 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T06:54:58.948Z"
+    },
+    {
+      "id": "audit-mvxh6esr-be614d",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:54:58.923Z"
+    },
+    {
+      "id": "audit-mvxh6erd-3dddc4",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:54:58.873Z"
+    },
+    {
+      "id": "audit-mvxh6epz-db5fb4",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:54:58.823Z"
+    },
+    {
+      "id": "audit-mvxh6eo9-49499a",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:54:58.761Z"
+    },
+    {
+      "id": "audit-mvxgylmy-911d23",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxgylle-38db29",
+      "details": "Cancelled GKH-2026-1009. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T06:48:54.538Z"
+    },
+    {
+      "id": "audit-mvxgylmr-73787b",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "DEMO_PAYMENT_SIMULATED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxgylle-38db29",
+      "details": "Simulated demo payment DEMO-SIM-RZP-734531 (Demo UPI Test · DEMO TEST ONLY) for ₹800 (No real charge).",
+      "createdAt": "2026-11-01T06:48:54.531Z"
+    },
+    {
+      "id": "audit-mvxgylme-ca7605",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxgylme-cb9598",
+      "details": "Uploaded lab report GKH-LAB-2026-8688 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T06:48:54.518Z"
+    },
+    {
+      "id": "audit-mvxgylm7-afecf5",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxgylm7-ddd9bb",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T06:48:54.511Z"
+    },
+    {
+      "id": "audit-mvxgyllr-b3ef09",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxgylle-38db29",
+      "details": "Rescheduled GKH-2026-1009 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T06:48:54.495Z"
+    },
+    {
+      "id": "audit-mvxgylle-8dbb36",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxgylle-38db29",
+      "details": "Booked GKH-2026-1009 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T06:48:54.482Z"
+    },
+    {
+      "id": "audit-mvxgylkk-203fdb",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:48:54.453Z"
+    },
+    {
+      "id": "audit-mvxgylj0-7bbc3d",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:48:54.396Z"
+    },
+    {
+      "id": "audit-mvxgylhe-27df86",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:48:54.338Z"
+    },
+    {
+      "id": "audit-mvxgylfe-c89719",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:48:54.266Z"
+    },
+    {
+      "id": "audit-mvxfhrz6-c3d459",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxfhrxx-96f848",
+      "details": "Cancelled GKH-2026-1008. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T06:07:49.986Z"
+    },
+    {
+      "id": "audit-mvxfhrz0-a15e29",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "DEMO_PAYMENT_SIMULATED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxfhrxx-96f848",
+      "details": "Simulated demo payment DEMO-SIM-RZP-269980 (Demo UPI Test · DEMO TEST ONLY) for ₹800 (No real charge).",
+      "createdAt": "2026-11-01T06:07:49.980Z"
+    },
+    {
+      "id": "audit-mvxfhrym-878e68",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxfhrym-a2e548",
+      "details": "Uploaded lab report GKH-LAB-2026-9109 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T06:07:49.966Z"
+    },
+    {
+      "id": "audit-mvxfhryg-e6a235",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxfhryg-2bfa56",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T06:07:49.961Z"
+    },
+    {
+      "id": "audit-mvxfhry5-0c6682",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxfhrxx-96f848",
+      "details": "Rescheduled GKH-2026-1008 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T06:07:49.949Z"
+    },
+    {
+      "id": "audit-mvxfhrxx-876f1e",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxfhrxx-96f848",
+      "details": "Booked GKH-2026-1008 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T06:07:49.941Z"
+    },
+    {
+      "id": "audit-mvxfhrxa-517a36",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:07:49.918Z"
+    },
+    {
+      "id": "audit-mvxfhrvu-dc64a6",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:07:49.866Z"
+    },
+    {
+      "id": "audit-mvxfhrud-fafecd",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:07:49.813Z"
+    },
+    {
+      "id": "audit-mvxfhrsm-d805a4",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T06:07:49.750Z"
+    },
+    {
+      "id": "audit-mvxeyk7t-3533ea",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxeyk5q-942d69",
+      "details": "Cancelled GKH-2026-1007. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T05:52:53.465Z"
+    },
+    {
+      "id": "audit-mvxeyk7n-1a8d23",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "DEMO_PAYMENT_SIMULATED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxeyk5q-942d69",
+      "details": "Simulated demo payment DEMO-SIM-RZP-373459 (Demo UPI Test · DEMO TEST ONLY) for ₹800 (No real charge).",
+      "createdAt": "2026-11-01T05:52:53.459Z"
+    },
+    {
+      "id": "audit-mvxeyk6p-937ea7",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxeyk6p-ffb5b0",
+      "details": "Uploaded lab report GKH-LAB-2026-9219 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T05:52:53.425Z"
+    },
+    {
+      "id": "audit-mvxeyk6j-712362",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxeyk6i-a4c5e9",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T05:52:53.419Z"
+    },
+    {
+      "id": "audit-mvxeyk60-e49363",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxeyk5q-942d69",
+      "details": "Rescheduled GKH-2026-1007 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T05:52:53.400Z"
+    },
+    {
+      "id": "audit-mvxeyk5q-1f9e21",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxeyk5q-942d69",
+      "details": "Booked GKH-2026-1007 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T05:52:53.390Z"
+    },
+    {
+      "id": "audit-mvxeyk40-6511b3",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T05:52:53.328Z"
+    },
+    {
+      "id": "audit-mvxeyk2i-c844bc",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T05:52:53.274Z"
+    },
+    {
+      "id": "audit-mvxeyk09-c65e51",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T05:52:53.193Z"
+    },
+    {
+      "id": "audit-mvxeyjx9-b46a00",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T05:52:53.086Z"
+    },
+    {
+      "id": "audit-mvxbu8ct-3b053f",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxbu8bi-d46193",
+      "details": "Cancelled GKH-2026-1006. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T04:25:32.621Z"
+    },
+    {
+      "id": "audit-mvxbu8co-fec4f2",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "DEMO_PAYMENT_SIMULATED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxbu8bi-d46193",
+      "details": "Simulated demo payment DEMO-SIM-RZP-132616 (Demo UPI Test · DEMO TEST ONLY) for ₹800 (No real charge).",
+      "createdAt": "2026-11-01T04:25:32.616Z"
+    },
+    {
+      "id": "audit-mvxbu8cb-212d3f",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxbu8cb-6604bd",
+      "details": "Uploaded lab report GKH-LAB-2026-4239 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T04:25:32.603Z"
+    },
+    {
+      "id": "audit-mvxbu8c4-d1d499",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxbu8c3-0bdcb3",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T04:25:32.596Z"
+    },
+    {
+      "id": "audit-mvxbu8br-8d6ce2",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxbu8bi-d46193",
+      "details": "Rescheduled GKH-2026-1006 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T04:25:32.583Z"
+    },
+    {
+      "id": "audit-mvxbu8bj-f85ef4",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxbu8bi-d46193",
+      "details": "Booked GKH-2026-1006 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T04:25:32.575Z"
+    },
+    {
+      "id": "audit-mvxbu8ay-ff7410",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:25:32.554Z"
+    },
+    {
+      "id": "audit-mvxbu89f-1f1d96",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:25:32.499Z"
+    },
+    {
+      "id": "audit-mvxbu87x-18d5a6",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:25:32.446Z"
+    },
+    {
+      "id": "audit-mvxbu85g-7cd337",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:25:32.357Z"
+    },
+    {
+      "id": "audit-mvxb42xa-cb9275",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb42w8-67e790",
+      "details": "Cancelled GKH-2026-1005. Reason: Automated integration test cleanup",
+      "createdAt": "2026-11-01T04:05:12.526Z"
+    },
+    {
+      "id": "audit-mvxb42wy-f40587",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "LAB_REPORT_UPLOADED",
+      "entityType": "labReport",
+      "entityId": "lab-mvxb42wy-b2a315",
+      "details": "Uploaded lab report GKH-LAB-2026-4439 (Complete Lipid Profile & HbA1c) for Aarav Patel.",
+      "createdAt": "2026-11-01T04:05:12.514Z"
+    },
+    {
+      "id": "audit-mvxb42wt-59966c",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "PRESCRIPTION_ISSUED",
+      "entityType": "prescription",
+      "entityId": "rx-mvxb42wt-59b8ae",
+      "details": "Issued prescription to Aarav Patel (1 medicines).",
+      "createdAt": "2026-11-01T04:05:12.509Z"
+    },
+    {
+      "id": "audit-mvxb42wh-41bcdf",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb42w8-67e790",
+      "details": "Rescheduled GKH-2026-1005 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T04:05:12.497Z"
+    },
+    {
+      "id": "audit-mvxb42w8-a38297",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb42w8-67e790",
+      "details": "Booked GKH-2026-1005 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T04:05:12.488Z"
+    },
+    {
+      "id": "audit-mvxb42w0-65cf0a",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb2ldg-75c455",
+      "details": "Cancelled GKH-2026-1003. Reason: Pre-test cleanup",
+      "createdAt": "2026-11-01T04:05:12.480Z"
+    },
+    {
+      "id": "audit-mvxb42vu-657f2d",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "APPOINTMENT_CANCELLED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb3g5c-2b9ac0",
+      "details": "Cancelled GKH-2026-1004. Reason: Pre-test cleanup",
+      "createdAt": "2026-11-01T04:05:12.474Z"
+    },
+    {
+      "id": "audit-mvxb42vg-5f78d7",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:05:12.461Z"
+    },
+    {
+      "id": "audit-mvxb42u0-96ca77",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:05:12.409Z"
+    },
+    {
+      "id": "audit-mvxb42sf-f3809a",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:05:12.351Z"
+    },
+    {
+      "id": "audit-mvxb42ql-d52129",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:05:12.285Z"
+    },
+    {
+      "id": "audit-mvxb3g5c-f4781a",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb3g5c-2b9ac0",
+      "details": "Booked GKH-2026-1004 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T04:04:43.008Z"
+    },
+    {
+      "id": "audit-mvxb3g4s-91dc74",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:42.988Z"
+    },
+    {
+      "id": "audit-mvxb3g3d-e7f2bb",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:42.937Z"
+    },
+    {
+      "id": "audit-mvxb3g1y-6dfe62",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:42.886Z"
+    },
+    {
+      "id": "audit-mvxb3g08-8aa7cd",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:42.824Z"
+    },
+    {
+      "id": "audit-mvxb2lem-4dd9c3",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_RESCHEDULED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb2ldg-75c455",
+      "details": "Rescheduled GKH-2026-1003 from 2026-12-14 10:30 AM to 2026-12-14 11:00 AM.",
+      "createdAt": "2026-11-01T04:04:03.166Z"
+    },
+    {
+      "id": "audit-mvxb2ldg-7e19bc",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "APPOINTMENT_BOOKED",
+      "entityType": "appointment",
+      "entityId": "appt-mvxb2ldg-75c455",
+      "details": "Booked GKH-2026-1003 with Dr. Rajeshwar Sharma on 2026-12-14 at 10:30 AM.",
+      "createdAt": "2026-11-01T04:04:03.124Z"
+    },
+    {
+      "id": "audit-mvxb2lce-699cba",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:03.087Z"
+    },
+    {
+      "id": "audit-mvxb2l43-403c39",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:02.787Z"
+    },
+    {
+      "id": "audit-mvxb2l2g-a1e9bf",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:02.728Z"
+    },
+    {
+      "id": "audit-mvxb2l0n-efdd00",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:04:02.663Z"
+    },
+    {
+      "id": "audit-mvxb1q33-1a18a0",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:03:22.575Z"
+    },
+    {
+      "id": "audit-mvxb1pvp-1ed9cd",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:03:22.309Z"
+    },
+    {
+      "id": "audit-mvxb1pu8-a3cc7b",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:03:22.256Z"
+    },
+    {
+      "id": "audit-mvxb1psj-aa2cb8",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:03:22.195Z"
+    },
+    {
+      "id": "audit-mvxaz3r0-7c3df9",
+      "actorId": "user-patient-1",
+      "actorName": "Aarav Patel",
+      "actorRole": "patient",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-patient-1",
+      "details": "PATIENT login successful (patient@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:01:20.316Z"
+    },
+    {
+      "id": "audit-mvxaz3jh-f6ec35",
+      "actorId": "user-receptionist-1",
+      "actorName": "Anjali Verma (OPD Front Desk)",
+      "actorRole": "receptionist",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-receptionist-1",
+      "details": "RECEPTIONIST login successful (reception@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:01:20.046Z"
+    },
+    {
+      "id": "audit-mvxaz3i2-ae51e5",
+      "actorId": "user-doctor-1",
+      "actorName": "Dr. Rajeshwar Sharma",
+      "actorRole": "doctor",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-doctor-1",
+      "details": "DOCTOR login successful (dr.sharma@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:01:19.994Z"
+    },
+    {
+      "id": "audit-mvxaz3gg-98cafc",
+      "actorId": "user-admin-1",
+      "actorName": "Gokul Hospital Chief Administrator",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "user-admin-1",
+      "details": "ADMIN login successful (admin@gokulhospital.in).",
+      "createdAt": "2026-11-01T04:01:19.937Z"
+    },
+    {
+      "id": "audit-1",
+      "actorId": "system",
+      "actorName": "Gokul Hospital System",
+      "actorRole": "system",
+      "action": "DATABASE_INITIALIZED",
+      "entityType": "system",
+      "entityId": "gokul-hospital-core",
+      "details": "Initialized Gokul Hospital database with 15 medical departments, 8 demonstration doctor profiles, and RBAC accounts.",
+      "createdAt": "2026-11-01T04:01:19.559Z"
+    }
+  ],
+  "passwordResetTokens": [],
+  "appointmentSequence": 1012
+}

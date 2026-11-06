@@ -1,0 +1,942 @@
+# ULTIMATE MASTER PROMPT — TRANSFORM GOKUL HOSPITAL INTO A PREMIUM, HIGH-END, MODERN FULL-STACK HOSPITAL WEBSITE
+
+## 1. YOUR ROLE AND MAIN OBJECTIVE
+
+Act as an elite international website development agency consisting of:
+
+- Senior UI/UX Designers.
+- Professional Web Designers.
+- Frontend Developers.
+- Backend Developers.
+- React and TypeScript Engineers.
+- Firebase and Database Experts.
+- Medical Website Design Specialists.
+- Animation and Motion Designers.
+- Graphic Designers.
+- Image Optimization Experts.
+- Cybersecurity Engineers.
+- Software Testing Engineers.
+
+You are working on my EXISTING Google AI Studio project:
+
+# GOKUL HOSPITAL
+### Multi-Specialty Hospital & Healthcare Management System
+
+My existing website has been generated, but its appearance is too basic, the content looks too small, the visual design is not premium enough, and it needs professional images, typography, layouts, and animations.
+
+I want you to completely upgrade the existing website into a WORLD-CLASS, PREMIUM, MODERN, BEAUTIFUL, PROFESSIONAL, FULLY RESPONSIVE HOSPITAL WEBSITE.
+
+IMPORTANT:
+
+Do not create a new project.
+
+Do not delete existing working features.
+
+Do not replace the complete application with a static design.
+
+Inspect my existing project, improve the actual source code, preserve the working backend, and implement the redesign directly.
+
+My uploaded screenshot represents the current website and its visual problems. Use it as a reference for understanding what needs improvement. Do not copy its small, narrow content layout.
+
+My original GOKUL HOSPITAL logo must remain the official logo throughout the website.
+
+==================================================
+2. FIRST PRIORITY — FIX THE CURRENT LAYOUT PROBLEM
+==================================================
+
+In my current screenshot, the actual website content appears in a very narrow column in the center of the screen, with huge empty spaces on both sides.
+
+This is NOT the design I want.
+
+Inspect the entire layout and identify why the content is appearing too small.
+
+Check:
+
+- Root application width.
+- Main container width.
+- CSS max-width.
+- Fixed width restrictions.
+- Grid layout.
+- Flexbox layout.
+- Body and HTML styling.
+- Viewport settings.
+- Tailwind container configuration.
+- Header dimensions.
+- Responsive breakpoints.
+- Any accidental zoom or scale transformations.
+
+FIX THE LAYOUT.
+
+DESKTOP REQUIREMENTS:
+
+- Website must use the full available browser width.
+- Header must span the entire width.
+- Main content should have a professional centered container.
+- Recommended content max-width: approximately 1280–1360px.
+- Use responsive horizontal padding.
+- Create proper two-column and three-column layouts where appropriate.
+- Avoid narrow 400px page containers on desktop.
+- Avoid excessive white space.
+- Use a proper visual hierarchy.
+- Make headings and cards comfortably readable.
+
+TABLET REQUIREMENTS:
+
+- Properly adapt columns.
+- Maintain attractive spacing.
+- Prevent overlapping elements.
+
+MOBILE REQUIREMENTS:
+
+- Single-column layouts where appropriate.
+- Proper mobile navigation.
+- Readable typography.
+- Full-width responsive cards.
+- No horizontal scrolling.
+
+Never use artificial browser zoom, page scaling, or transforms to make the website appear larger.
+
+Create a genuinely responsive layout using CSS, Flexbox, Grid, and proper breakpoints.
+
+==================================================
+3. PREMIUM WEBSITE DESIGN DIRECTION
+==================================================
+
+Transform Gokul Hospital into a premium international healthcare brand.
+
+DESIGN DIRECTION:
+
+- Modern premium healthcare website.
+- Luxury-inspired medical design.
+- Clean and elegant visual presentation.
+- Large professional hero sections.
+- Beautiful image compositions.
+- Modern card layouts.
+- Attractive medical illustrations.
+- Premium typography.
+- Soft shadows.
+- Clean borders.
+- Elegant rounded corners.
+- Beautiful spacing.
+- Smooth interactions.
+- Professional blue-and-teal branding.
+
+The website should look like a professionally designed hospital website, not a basic student project or simple dashboard template.
+
+Use beautiful visuals without overcrowding the pages.
+
+IMPORTANT: Make all sections visually balanced and easy to navigate.
+
+==================================================
+4. OFFICIAL BRAND IDENTITY AND COLORS
+==================================================
+
+Hospital Name: GOKUL HOSPITAL
+
+Use my exact existing uploaded official Gokul Hospital logo.
+
+Do not generate another logo or replace my logo with generic icons.
+
+BRAND COLORS:
+
+Navy Blue: #123B67
+
+Medical Blue: #1685B8
+
+Royal Blue: #167DB5
+
+Teal: #19B7A5
+
+Light Blue: #EAF5FC
+
+Background: #F5F9FC
+
+White: #FFFFFF
+
+Dark Text: #243447
+
+Remove all purple, pink, violet, and magenta colors from the entire website.
+
+Apply the same branding to every public page and dashboard.
+
+The header structure that I already like should be preserved, but improve its typography, spacing, logo alignment, visual balance, and responsive behavior.
+
+==================================================
+5. MODERN PROFESSIONAL TYPOGRAPHY
+==================================================
+
+The current website font does not look stylish enough.
+
+Upgrade the entire website typography.
+
+Use a modern professional font combination:
+
+HEADINGS:
+- Manrope or Plus Jakarta Sans.
+
+BODY TEXT:
+- Inter.
+
+BUTTONS:
+- Inter with professional medium or semibold weight.
+
+Use suitable fallbacks if font loading fails.
+
+TYPOGRAPHY REQUIREMENTS:
+
+- Large attractive hero headings.
+- Professional page titles.
+- Beautiful section headings.
+- Readable paragraph text.
+- Well-spaced line heights.
+- Consistent font weights.
+- Clear button text.
+- Attractive navigation typography.
+- Professional dashboard typography.
+
+Suggested desktop hierarchy:
+
+Hero Heading: 48–60px.
+
+Main Page Heading: 36–46px.
+
+Section Heading: 28–36px.
+
+Card Heading: 19–24px.
+
+Body Text: 15–17px.
+
+Small Supporting Text: 13–14px.
+
+Adjust these sizes responsively for smaller screens.
+
+Do not make text extremely small.
+
+Use consistent typography throughout every page.
+
+==================================================
+6. PREMIUM HOMEPAGE REDESIGN
+==================================================
+
+Completely improve the Gokul Hospital homepage.
+
+The homepage must be visually impressive immediately when someone opens the website.
+
+A. PREMIUM HERO SECTION
+
+Create a large, beautiful, professional, full-width hero section.
+
+Use an attractive split layout.
+
+LEFT SIDE:
+
+- Small healthcare introduction label.
+- Large headline: "Your Health, Our Priority."
+- Supporting description.
+- Primary Book Appointment button.
+- Secondary Find a Doctor button.
+- Emergency Contact option.
+- Small trust information where verified.
+
+RIGHT SIDE:
+
+Use a beautiful, high-quality hospital hero image showing:
+
+- Modern multi-specialty hospital.
+- Professional Indian medical team.
+- Friendly Indian doctors and nurses.
+- Modern hospital reception.
+- Clean healthcare environment.
+- Premium medical technology.
+- Natural lighting.
+- Blue-and-white hospital interior.
+
+Use a professional composition with attractive image sizing.
+
+Add subtle image entrance animations.
+
+Reuse my previously uploaded Gokul Hospital hero image if it exists in the project assets.
+
+If additional image generation is available, create a visually consistent original hero image specifically for Gokul Hospital.
+
+Do not use unrelated or low-quality images.
+
+B. HOMEPAGE SECTIONS
+
+Create the following beautiful sections:
+
+1. Hero Banner.
+2. Hospital Introduction.
+3. Why Choose Gokul Hospital.
+4. Medical Departments.
+5. Meet Our Doctors.
+6. Advanced Medical Services.
+7. Hospital Facilities.
+8. Healthcare Technologies.
+9. Appointment Booking CTA.
+10. Emergency Care Section.
+11. Health Checkup Packages.
+12. Patient Testimonials.
+13. Latest Health Blogs.
+14. Frequently Asked Questions.
+15. Contact Section.
+16. Location Section.
+17. Professional Footer.
+
+Each section must have its own proper visual design.
+
+Use elegant layouts, large headings, beautiful cards, and relevant images.
+
+Do not repeat the same generic card design everywhere.
+
+==================================================
+7. COMPLETE MEDICAL IMAGE DESIGN SYSTEM
+==================================================
+
+VERY IMPORTANT:
+
+I WANT PROFESSIONAL MEDICAL IMAGES THROUGHOUT MY WEBSITE.
+
+My current website looks too plain because it does not use enough relevant high-quality visuals.
+
+Inspect all pages and decide where images will genuinely improve the design.
+
+Use the available image-generation capability inside the development environment where supported.
+
+If image generation is unavailable, use suitable licensed, relevant medical images and save or reference them reliably.
+
+Do not just insert random images or broken external URLs.
+
+CREATE OR SELECT THESE IMAGE TYPES:
+
+A. HOMEPAGE
+
+- Premium modern hospital exterior.
+- Indian doctors and nurses.
+- Hospital reception.
+- Healthcare team.
+- Medical consultation.
+- Advanced hospital equipment.
+
+B. ABOUT HOSPITAL
+
+- Modern hospital environment.
+- Healthcare professionals.
+- Patient care environment.
+- Hospital interior.
+- Medical team collaboration.
+
+C. DEPARTMENTS
+
+Create appropriate visuals for:
+
+- Cardiology.
+- Neurology.
+- Orthopedics.
+- Pediatrics.
+- Gynecology.
+- Dermatology.
+- General Medicine.
+- General Surgery.
+- Dentistry.
+- Ophthalmology.
+- Oncology.
+- Radiology.
+- Emergency Medicine.
+- ENT.
+- Physiotherapy.
+
+Every department should have a relevant visual identity.
+
+D. DOCTORS PAGE
+
+Use professional, consistent doctor profile photographs.
+
+For demo doctors, use clearly identified demonstration profiles.
+
+Never present AI-generated doctor identities or qualifications as actual Gokul Hospital staff.
+
+E. FACILITIES PAGE
+
+Use relevant photographs or illustrations of:
+
+- Modern patient rooms.
+- Hospital reception.
+- Diagnostic areas.
+- Laboratory environment.
+- Medical equipment.
+- Waiting areas.
+- Patient support areas.
+
+Only describe facilities as actual hospital services once verified.
+
+F. MEDICAL SERVICES
+
+Use suitable medical imagery for each available service.
+
+G. APPOINTMENT PAGE
+
+Use a subtle medical background image or a professional doctor consultation photograph without obstructing the booking form.
+
+H. HEALTH PACKAGES
+
+Use attractive healthcare and preventive checkup imagery.
+
+I. HEALTH BLOG
+
+Every blog card must have an appropriate image thumbnail related to the article.
+
+J. GALLERY
+
+Create an attractive image grid with categories, consistent image dimensions, and a beautiful lightbox interaction.
+
+IMAGE DESIGN RULES:
+
+- High-resolution images.
+- Professional composition.
+- Consistent blue-and-white aesthetic.
+- Responsive dimensions.
+- Optimized image size.
+- Lazy loading.
+- Proper image cropping.
+- Meaningful alternative text.
+- No distorted faces.
+- No broken image links.
+- No random image repetition.
+
+Use different images for different departments and content categories where appropriate.
+
+Do not make every page look identical.
+
+==================================================
+8. PROFESSIONAL ANIMATIONS AND MOTION DESIGN
+==================================================
+
+Add beautiful, subtle, professional animations throughout the website.
+
+I want the website to feel modern, smooth, and premium.
+
+ANIMATIONS:
+
+1. Smooth page transitions.
+2. Hero text entrance animation.
+3. Hero image entrance animation.
+4. Scroll reveal effects.
+5. Fade-in animations.
+6. Gentle slide-up animations.
+7. Smooth button hover effects.
+8. Card hover transitions.
+9. Image hover zoom.
+10. Smooth dropdown transitions.
+11. Beautiful modal animations.
+12. Loading skeleton animations.
+13. Dashboard chart animations.
+14. Smooth navigation indicators.
+15. Elegant section transitions.
+
+For the homepage, use subtle motion in the medical imagery, hero section, and department cards.
+
+For dashboards, use smooth card transitions and loading states.
+
+TECHNICAL REQUIREMENTS:
+
+- Use CSS animations or a compatible motion library such as Framer Motion if appropriate.
+- Avoid heavy animations.
+- Maintain good performance.
+- Respect prefers-reduced-motion.
+- Avoid animation that causes layout shifting.
+- Ensure all functionality works even when animations are disabled.
+
+Do not animate every element unnecessarily.
+
+==================================================
+9. COMPLETE WEBSITE HEADER REDESIGN
+==================================================
+
+Preserve my existing header structure because I already like its general layout.
+
+However, upgrade its appearance.
+
+Use:
+
+- Original Gokul Hospital logo.
+- Proper logo dimensions.
+- Modern font.
+- Better spacing.
+- Professional navigation.
+- Beautiful active states.
+- Elegant blue Book Appointment button.
+- Smooth dropdown menus.
+- Responsive mobile menu.
+- Proper hover effects.
+- Sticky behavior where appropriate.
+
+Keep all existing navigation destinations working.
+
+==================================================
+10. ALL PUBLIC WEBSITE PAGES — PROFESSIONAL REDESIGN
+==================================================
+
+Do not redesign only the homepage.
+
+Upgrade EVERY page.
+
+PAGE 1: HOME
+
+Create a visually rich homepage as described above.
+
+PAGE 2: ABOUT GOKUL HOSPITAL
+
+Use a beautiful hospital image, introduction, mission, vision, values, and verified hospital details.
+
+PAGE 3: DEPARTMENTS
+
+Create premium department cards with relevant medical images, descriptions, and working links.
+
+PAGE 4: DEPARTMENT DETAILS
+
+Use a unique page layout, department visual, services, related doctors, and booking CTA.
+
+PAGE 5: OUR DOCTORS
+
+Create modern doctor cards with photographs, specialization, experience, and profile buttons.
+
+PAGE 6: DOCTOR PROFILE
+
+Use a professional profile layout, doctor information, schedule, and appointment button.
+
+PAGE 7: MEDICAL SERVICES
+
+Create attractive image-based service sections.
+
+PAGE 8: FACILITIES
+
+Use a beautiful gallery-style design for available facilities.
+
+PAGE 9: APPOINTMENT BOOKING
+
+Create a complete professional booking interface with a functional backend and database.
+
+PAGE 10: HEALTH PACKAGES
+
+Use attractive cards, relevant images, package information, and inquiry functionality.
+
+PAGE 11: HOSPITAL GALLERY
+
+Create a professional image gallery with category filters and image preview.
+
+PAGE 12: HEALTH BLOG
+
+Create beautiful blog cards with image thumbnails, categories, and readable content.
+
+PAGE 13: BLOG DETAILS
+
+Use an editorial article design with large cover image, title, author information where verified, and readable content.
+
+PAGE 14: CONTACT US
+
+Create a beautiful contact page with contact form, verified contact information, map integration if configured, and emergency information.
+
+PAGE 15: FAQ
+
+Use a professional accordion layout with smooth transitions.
+
+PAGE 16: TESTIMONIALS
+
+Use elegant testimonial cards.
+
+Do not invent actual patient reviews. Use clearly marked demo content until verified reviews are supplied.
+
+PAGE 17: LOGIN AND REGISTRATION
+
+Create professional blue-and-white authentication layouts.
+
+PAGE 18: FORGOT PASSWORD
+
+Create a modern secure reset-password design.
+
+PAGE 19: PRIVACY POLICY AND TERMS
+
+Use clean, readable document layouts.
+
+PAGE 20: 404 PAGE
+
+Create a beautiful branded error page with working Home and Appointment links.
+
+No page should look unfinished or empty.
+
+==================================================
+11. ALL DASHBOARDS MUST ALSO BE REDESIGNED
+==================================================
+
+Create an equally professional experience for every authenticated user.
+
+PATIENT DASHBOARD:
+
+- Overview.
+- Profile.
+- Appointments.
+- Book Appointment.
+- Medical Records.
+- Lab Reports.
+- Prescriptions.
+- Notifications.
+- Settings.
+
+DOCTOR DASHBOARD:
+
+- Overview.
+- Profile.
+- Schedule.
+- Availability.
+- Today's Appointments.
+- Patient Information.
+- Appointment History.
+- Prescriptions.
+- Notifications.
+
+ADMIN DASHBOARD:
+
+- Overview.
+- Patients.
+- Doctors.
+- Departments.
+- Appointments.
+- Staff.
+- Services.
+- Facilities.
+- Packages.
+- Content Management.
+- Notifications.
+- Analytics.
+- Reports.
+- Settings.
+
+RECEPTIONIST DASHBOARD:
+
+- Overview.
+- Patients.
+- Appointment Booking.
+- Appointment Management.
+- Daily Schedule.
+- Inquiries.
+- Notifications.
+
+DESIGN REQUIREMENTS:
+
+- Elegant blue sidebar.
+- Professional logo placement.
+- Modern navigation.
+- Clean statistics cards.
+- Beautiful charts.
+- Readable tables.
+- Search and filters.
+- Responsive mobile sidebar.
+- Smooth interactions.
+- Consistent typography.
+
+Use actual database data for live dashboard information.
+
+==================================================
+12. COMPLETE BACKEND FUNCTIONALITY MUST BE PRESERVED
+==================================================
+
+I want a FULL-STACK website, not just an attractive frontend.
+
+Inspect the current backend and database before modifying anything.
+
+Preserve and verify:
+
+- Existing database connection.
+- Firebase Authentication.
+- Firestore integration.
+- Patient registration.
+- Login and logout.
+- Role-based authorization.
+- Patient management.
+- Doctor management.
+- Department management.
+- Appointment booking.
+- Appointment confirmation.
+- Appointment cancellation.
+- Appointment rescheduling.
+- Doctor availability.
+- Admin operations.
+- Receptionist operations.
+- Notifications.
+- Protected routes.
+
+Do not remove an existing working backend feature to make the visual redesign easier.
+
+Do not replace real database functionality with mock arrays.
+
+Do not create fake success messages.
+
+If any feature is not connected or credentials are missing, clearly report the limitation and complete all possible implementation work.
+
+==================================================
+13. COMPLETE APPOINTMENT BOOKING DESIGN AND TESTING
+==================================================
+
+Make the appointment page one of the most professional pages on the website.
+
+Include:
+
+- Attractive page header.
+- Professional booking steps.
+- Department selection.
+- Doctor selection.
+- Doctor profiles.
+- Available date picker.
+- Actual time slots.
+- Patient details form.
+- Validation.
+- Booking summary.
+- Confirmation screen.
+
+Fix the existing /appointment route if it is still broken.
+
+Connect every booking operation to the real backend and database.
+
+Prevent duplicate bookings with reliable server-side validation and concurrency-safe database operations.
+
+Make sure Book Appointment works from the header, homepage, doctor profiles, and patient dashboard.
+
+After booking, show the confirmed database result.
+
+==================================================
+14. PROFESSIONAL FOOTER
+==================================================
+
+Create a premium footer with:
+
+- Gokul Hospital official logo.
+- Hospital introduction.
+- Quick navigation.
+- Departments.
+- Medical Services.
+- Contact Details.
+- Emergency Contact.
+- Social Media Links.
+- Privacy Policy.
+- Terms.
+- Copyright.
+
+Do not invent real contact information.
+
+Ensure that the footer looks consistent on all public pages.
+
+==================================================
+15. RESPONSIVE DESIGN
+==================================================
+
+Test every page on:
+
+DESKTOP:
+- 1440px.
+- 1600px.
+- 1920px.
+
+LAPTOP:
+- 1366px.
+- 1280px.
+
+TABLET:
+- 1024px.
+- 768px.
+
+MOBILE:
+- 430px.
+- 390px.
+- 360px.
+
+Ensure:
+
+- Proper content width.
+- Readable typography.
+- Correct image sizing.
+- No overlapping sections.
+- No horizontal overflow.
+- Beautiful cards.
+- Proper mobile navigation.
+- Working forms.
+- Proper dashboard layout.
+
+==================================================
+16. SEO, ACCESSIBILITY AND PERFORMANCE
+==================================================
+
+Implement:
+
+- Page-specific titles.
+- Meta descriptions.
+- Semantic HTML.
+- Proper heading hierarchy.
+- Image alt text.
+- Optimized images.
+- Lazy loading.
+- Good contrast.
+- Keyboard navigation.
+- Accessible forms.
+- Proper focus indicators.
+- Sitemap.
+- Robots.txt.
+- Appropriate Open Graph metadata.
+
+Optimize the website for speed.
+
+Avoid unnecessary dependencies.
+
+==================================================
+17. TEST EVERY PAGE AND FIX EVERY ERROR
+==================================================
+
+Act as a professional QA engineer.
+
+After the complete redesign:
+
+1. Open every website page.
+2. Test every navigation link.
+3. Test every button.
+4. Test the header.
+5. Test the footer.
+6. Test all dashboards.
+7. Test all forms.
+8. Test appointment booking.
+9. Test backend API requests.
+10. Test database operations.
+11. Test authentication.
+12. Test protected routes.
+13. Test all images.
+14. Test all animations.
+15. Test responsive layouts.
+16. Check browser console errors.
+17. Run the production build.
+
+If you find an issue, fix it directly in the existing source code and test the affected feature again.
+
+Do not merely describe errors.
+
+Do not falsely report success.
+
+==================================================
+18. DEVELOPMENT PRIORITY
+==================================================
+
+Work efficiently in this order:
+
+PRIORITY 1:
+Correct desktop layout width and the tiny central content problem.
+
+PRIORITY 2:
+Establish global typography and blue-and-white design system.
+
+PRIORITY 3:
+Redesign the entire homepage and hero section.
+
+PRIORITY 4:
+Add relevant professional images throughout all appropriate pages.
+
+PRIORITY 5:
+Add modern animations and interactions.
+
+PRIORITY 6:
+Redesign all public pages.
+
+PRIORITY 7:
+Redesign patient, doctor, admin, and receptionist dashboards.
+
+PRIORITY 8:
+Preserve and test backend, database, and appointment booking functionality.
+
+PRIORITY 9:
+Responsive design and performance optimization.
+
+PRIORITY 10:
+Final complete testing, debugging, and deployment preparation.
+
+Do not stop after finishing the first few sections.
+
+==================================================
+19. FINAL DELIVERY REPORT
+==================================================
+
+After completing everything, provide a detailed report:
+
+1. Layout improvements.
+2. Desktop width correction.
+3. Typography changes.
+4. Color system.
+5. Homepage redesign.
+6. Medical images created or integrated.
+7. Animations implemented.
+8. Public pages completed.
+9. Dashboards redesigned.
+10. Logo integration.
+11. Appointment backend status.
+12. Database status.
+13. Authentication status.
+14. Responsive testing results.
+15. Performance improvements.
+16. Errors fixed.
+17. Remaining errors.
+18. Missing credentials.
+19. Deployment readiness.
+
+Clearly distinguish completed, tested, partially implemented, and untested functionality.
+
+==================================================
+20. FINAL COMMAND — BUILD THE BEST VERSION OF GOKUL HOSPITAL
+==================================================
+
+I want my GOKUL HOSPITAL website to look like a premium, modern, international healthcare website.
+
+My current website is too basic and too small in appearance.
+
+I want:
+
+- A beautiful full-width professional layout.
+- Premium hospital homepage.
+- Large medical hero imagery.
+- Attractive doctor photographs.
+- Professional department visuals.
+- Beautiful facilities images.
+- Modern stylish fonts.
+- Premium UI components.
+- Elegant blue-and-teal color system.
+- Smooth professional animations.
+- Beautiful cards and sections.
+- Responsive mobile experience.
+- Professional patient dashboard.
+- Professional doctor dashboard.
+- Professional admin dashboard.
+- Professional receptionist dashboard.
+- Working appointment booking.
+- Fully connected backend.
+- Connected database.
+- Complete website navigation.
+- Correct logo branding.
+- Complete functionality.
+- Full testing and debugging.
+
+Use your design expertise to make every page visually attractive and unique while maintaining consistent branding.
+
+Do not create a basic template.
+
+Do not make the website narrow on desktop.
+
+Do not leave empty image sections where relevant visuals are needed.
+
+Do not use random images.
+
+Do not create decorative but non-functional buttons.
+
+Do not remove existing working features.
+
+Continue working on my existing project until every implementable feature is complete.
+
+I want you to make the actual website, not just give me suggestions.
+
+START THE COMPLETE PREMIUM GOKUL HOSPITAL WEBSITE REDESIGN AND DEVELOPMENT NOW.
+
+MAKE IT BEAUTIFUL, MODERN, PROFESSIONAL, RESPONSIVE, AND FULLY FUNCTIONAL.

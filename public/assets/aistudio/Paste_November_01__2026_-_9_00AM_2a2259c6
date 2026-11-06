@@ -1,0 +1,1358 @@
+# MASTER PROMPT: BUILD A COMPLETE PROFESSIONAL FULL-STACK WEBSITE FOR GOKUL HOSPITAL
+
+## YOUR ROLE
+
+Act as an expert full-stack development company consisting of:
+
+- Senior UI/UX Designer
+- Frontend Developer
+- Backend Developer
+- Database Architect
+- Firebase Specialist
+- Cybersecurity Engineer
+- Software Tester
+- QA Engineer
+- DevOps Engineer
+
+Your mission is to DESIGN, DEVELOP, BUILD, INTEGRATE, TEST, DEBUG, and PREPARE FOR DEPLOYMENT a complete, professional, premium-quality Hospital Website and Hospital Management System for:
+
+# GOKUL HOSPITAL
+
+This is my official project name. Use **GOKUL HOSPITAL** consistently throughout the entire application.
+
+IMPORTANT: I do not want a basic website, a static HTML website, a simple homepage, a UI prototype, or a website containing non-functional buttons.
+
+I want a complete, professional, fully responsive, database-connected FULL-STACK HOSPITAL WEBSITE with frontend, backend, authentication, database, dashboards, appointment booking, doctor management, patient management, admin panel, receptionist panel, and all essential hospital functionalities.
+
+You must build the actual application inside this Google AI Studio project.
+
+Do not just provide instructions or sample code. Create the actual project files, implement the features, connect the backend and database, run the application, test functionality, and fix errors.
+
+Do not stop after creating the homepage.
+
+Continue development until every feature that can be implemented in the available environment has been completed and tested.
+
+==================================================
+1. OFFICIAL HOSPITAL BRANDING
+==================================================
+
+Official Hospital Name: GOKUL HOSPITAL
+
+Website Title: Gokul Hospital | Quality Healthcare & Advanced Medical Services
+
+Website Type: Multi-Specialty Hospital Website and Management System.
+
+Country: India.
+
+Default Currency: INR (Indian Rupee ₹).
+
+Brand Identity:
+
+- Gokul Hospital
+- Professional healthcare identity
+- Modern medical technology
+- Patient-focused healthcare
+- Clean and welcoming design
+- Trustworthy hospital experience
+
+Create a professional hospital logo or editable brand mark using a medical-inspired symbol and the name Gokul Hospital.
+
+Keep the following information editable through the Admin Dashboard:
+
+- Hospital name.
+- Hospital logo.
+- Hospital address.
+- Contact phone.
+- Emergency phone.
+- Email address.
+- Hospital opening hours.
+- Social media links.
+- Departments.
+- Doctors.
+- Hospital facilities.
+- Services.
+- Consultation charges.
+- Website content.
+
+IMPORTANT:
+
+Do not invent the actual address, phone number, emergency number, email, medical certifications, hospital registration details, awards, doctors' qualifications, or patient testimonials.
+
+Where real information is unavailable, use clearly marked editable placeholders or demo information.
+
+==================================================
+2. COMPLETE FULL-STACK TECHNOLOGY
+==================================================
+
+Build a modern, professional, maintainable full-stack application.
+
+FRONTEND:
+
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Lucide Icons
+- Reusable React Components
+- Modern responsive layouts
+- Professional animations
+- Form validation
+- Toast notifications
+- Loading states
+- Skeleton loaders
+- Error states
+
+BACKEND:
+
+Use the Node.js server-side runtime supported by Google AI Studio.
+
+Implement:
+
+- Secure backend API endpoints.
+- Authentication services.
+- Authorization middleware.
+- Database service layer.
+- Appointment management services.
+- Patient management services.
+- Doctor management services.
+- Admin management services.
+- Input validation.
+- Error handling.
+- Secure environment variables.
+
+DATABASE:
+
+Use:
+
+- Firebase Authentication.
+- Firebase Cloud Firestore.
+- Firestore Security Rules.
+- Firebase Storage for authorized uploads where configured.
+- Server-side validation.
+- Appropriate Firestore indexes.
+
+All important user and hospital information must be saved persistently in the connected database.
+
+Do not use localStorage as the primary database.
+
+Use compatible technology versions and dependencies supported by the current environment.
+
+If the Firebase project needs approval or manual configuration, request it clearly and continue building the remaining functionality.
+
+==================================================
+3. PREMIUM PROFESSIONAL DESIGN
+==================================================
+
+Create an exceptional and premium design for GOKUL HOSPITAL.
+
+DESIGN STYLE:
+
+- Modern 3D-inspired medical design.
+- Premium healthcare website.
+- Beautiful white background.
+- Navy blue and medical blue.
+- Teal and soft cyan accents.
+- Professional gradient backgrounds.
+- Elegant shadows.
+- Rounded cards.
+- Smooth transitions.
+- Modern glass-inspired UI elements.
+- High-quality medical photography.
+- Professional medical illustrations.
+- Beautiful icons.
+- Modern typography.
+- Excellent spacing and alignment.
+
+BRAND COLORS:
+
+Primary: #123B67
+
+Secondary: #1685B8
+
+Accent: #19B7A5
+
+Background: #F5F9FC
+
+White: #FFFFFF
+
+Text: #243447
+
+Use a consistent design system across all pages.
+
+The website must look professional and trustworthy, not like a basic student project.
+
+==================================================
+4. COMPLETE HEADER AND NAVIGATION
+==================================================
+
+Create a premium responsive header.
+
+LEFT SIDE:
+
+- Gokul Hospital professional logo.
+- GOKUL HOSPITAL brand name.
+
+NAVIGATION MENU:
+
+1. Home
+2. About Us
+3. Departments
+4. Our Doctors
+5. Medical Services
+6. Facilities
+7. Health Packages
+8. Appointment
+9. Health Blog
+10. Contact Us
+
+RIGHT SIDE:
+
+- Patient Login.
+- Register.
+- Book Appointment.
+
+TOP INFORMATION BAR:
+
+- Hospital phone.
+- Emergency contact.
+- Email address.
+- Opening hours.
+
+MOBILE HEADER:
+
+- Responsive hamburger menu.
+- Working mobile navigation.
+- Appointment button.
+- Login option.
+
+Every navigation link must open its actual page.
+
+==================================================
+5. COMPLETE WEBSITE PAGES
+==================================================
+
+Create all pages professionally with working routing and proper content.
+
+PUBLIC WEBSITE PAGES:
+
+1. Home Page
+2. About Gokul Hospital
+3. Hospital Overview
+4. Mission and Vision
+5. Our Doctors
+6. Doctor Profile
+7. Medical Departments
+8. Department Details
+9. Medical Services
+10. Hospital Facilities
+11. Emergency Services
+12. Appointment Booking
+13. Health Checkup Packages
+14. Patient Testimonials
+15. Hospital Gallery
+16. Health Blog
+17. Blog Details
+18. Frequently Asked Questions
+19. Find a Doctor
+20. Contact Us
+21. Search Results
+22. Privacy Policy
+23. Terms and Conditions
+24. Cancellation Policy
+25. Login
+26. Register
+27. Forgot Password
+28. Reset Password
+29. Unauthorized Access
+30. 404 Not Found
+
+Create professional designs and actual content for all pages.
+
+==================================================
+6. PROFESSIONAL HOMEPAGE
+==================================================
+
+Create a premium homepage for GOKUL HOSPITAL.
+
+HOMEPAGE HERO SECTION:
+
+Use the previously designed modern hospital hero banner image, if it is available in the project assets.
+
+The hero section must include:
+
+- GOKUL HOSPITAL brand identity.
+- A professional headline.
+- A short healthcare introduction.
+- Book Appointment button.
+- Find a Doctor button.
+- Emergency contact option.
+- Beautiful medical imagery.
+- Smooth animations.
+
+Suggested headline:
+
+"Your Health, Our Priority."
+
+Suggested subheading:
+
+"Compassionate Care. Advanced Technology. Better Healthcare for Everyone."
+
+Create these homepage sections:
+
+1. Hero Banner.
+2. Hospital Introduction.
+3. Key Hospital Statistics.
+4. Medical Departments.
+5. Our Expert Doctors.
+6. Medical Services.
+7. Advanced Hospital Facilities.
+8. Why Choose Gokul Hospital?
+9. Appointment Booking Section.
+10. Emergency Care Section.
+11. Health Checkup Packages.
+12. Patient Testimonials.
+13. Latest Health Articles.
+14. Frequently Asked Questions.
+15. Contact Information.
+16. Location and Directions.
+17. Newsletter (only if configured).
+18. Professional Footer.
+
+Create attractive cards, animations, responsive grids, and professional layouts.
+
+Do not display fictional statistics as actual hospital achievements.
+
+==================================================
+7. COMPLETE PATIENT REGISTRATION AND LOGIN
+==================================================
+
+Implement real authentication using Firebase Authentication.
+
+REGISTRATION FORM:
+
+- Full Name.
+- Email Address.
+- Mobile Number.
+- Password.
+- Confirm Password.
+- Date of Birth (optional).
+- Gender (optional).
+- Address (optional).
+- Privacy Policy Acceptance.
+- Terms and Conditions Acceptance.
+
+LOGIN FORM:
+
+- Email.
+- Password.
+- Show/Hide Password.
+- Forgot Password.
+- Google Sign-In (when configured).
+- Remember session securely.
+
+FEATURES:
+
+- Patient Registration.
+- Patient Login.
+- Logout.
+- Forgot Password.
+- Reset Password.
+- Email Verification.
+- Authentication State.
+- Duplicate Account Validation.
+- Protected Routes.
+- Secure Session Handling.
+
+Use Firebase Authentication to manage credentials securely.
+
+Never save plain-text passwords in Firestore.
+
+Public registration must never automatically create an administrator account.
+
+==================================================
+8. PATIENT DASHBOARD
+==================================================
+
+Create a beautiful professional patient dashboard for Gokul Hospital.
+
+PATIENT DASHBOARD MENU:
+
+1. Dashboard Overview.
+2. My Profile.
+3. Edit Profile.
+4. Book New Appointment.
+5. My Appointments.
+6. Upcoming Appointments.
+7. Previous Appointments.
+8. Cancel Appointment.
+9. Reschedule Appointment.
+10. Appointment Details.
+11. Appointment History.
+12. Medical Records.
+13. Lab Reports.
+14. Prescriptions.
+15. Notifications.
+16. Privacy Settings.
+17. Change Password.
+18. Logout.
+
+DASHBOARD FEATURES:
+
+- Welcome message.
+- Patient information.
+- Upcoming appointments.
+- Total appointments.
+- Pending appointments.
+- Completed appointments.
+- Recent activity.
+- Quick booking button.
+- Notification center.
+
+All dashboard information must come from the database.
+
+Patients can only access their own records and authorized information.
+
+==================================================
+9. DOCTOR DIRECTORY
+==================================================
+
+Create a premium Our Doctors page.
+
+Each doctor card must show:
+
+- Doctor photograph.
+- Doctor name.
+- Specialization.
+- Qualifications.
+- Years of experience.
+- Department.
+- Consultation fee.
+- Availability.
+- Profile button.
+- Book Appointment button.
+
+SEARCH AND FILTERS:
+
+- Doctor name.
+- Department.
+- Specialization.
+- Availability.
+- Consultation fees.
+
+DOCTOR DETAILS PAGE:
+
+Include:
+
+- Profile photograph.
+- Name.
+- Qualifications.
+- Professional introduction.
+- Specialization.
+- Experience.
+- Languages.
+- Department.
+- Consultation fee.
+- Available days.
+- Available time slots.
+- Book Appointment button.
+
+Doctors must be manageable from the Admin Dashboard.
+
+Use clearly identified demonstration profiles until the hospital provides verified doctor details.
+
+==================================================
+10. COMPLETE DOCTOR DASHBOARD
+==================================================
+
+Create a separate secure Doctor Dashboard.
+
+MENU:
+
+1. Dashboard.
+2. My Profile.
+3. Edit Profile.
+4. My Schedule.
+5. Manage Availability.
+6. Today's Appointments.
+7. Upcoming Appointments.
+8. Appointment History.
+9. Patient Details.
+10. Manage Appointment Status.
+11. Authorized Medical Records.
+12. Prescriptions.
+13. Notifications.
+14. Change Password.
+15. Logout.
+
+Doctor functionality:
+
+- View assigned appointments.
+- View authorized patient information.
+- Manage availability.
+- Update appointment status.
+- Review appointment history.
+- Manage permitted professional profile information.
+
+Doctors must not have unrestricted access to all hospital data.
+
+==================================================
+11. COMPLETE APPOINTMENT BOOKING APPLICATION
+==================================================
+
+Implement a REAL working appointment booking system.
+
+This is one of the most important features of Gokul Hospital.
+
+BOOKING STEPS:
+
+STEP 1:
+
+Patient selects a medical department.
+
+STEP 2:
+
+Patient selects a doctor.
+
+STEP 3:
+
+Patient selects an available date.
+
+STEP 4:
+
+System retrieves the doctor's actual availability.
+
+STEP 5:
+
+Display available time slots.
+
+STEP 6:
+
+Patient selects a time slot.
+
+STEP 7:
+
+Patient enters booking details:
+
+- Patient Name.
+- Email Address.
+- Phone Number.
+- Date of Birth if required.
+- Appointment Reason.
+- Additional Notes (optional).
+
+STEP 8:
+
+Show a booking summary.
+
+STEP 9:
+
+Patient confirms booking.
+
+STEP 10:
+
+Save the appointment to Firestore.
+
+STEP 11:
+
+Generate a unique appointment ID.
+
+STEP 12:
+
+Display the appointment confirmation page.
+
+APPOINTMENT FEATURES:
+
+- New Appointment.
+- Appointment Confirmation.
+- Appointment Cancellation.
+- Appointment Rescheduling.
+- Upcoming Appointments.
+- Previous Appointments.
+- Appointment History.
+- Appointment Details.
+- Appointment Search.
+- Appointment Filters.
+- Appointment Status.
+- Doctor Availability.
+
+APPOINTMENT STATUS:
+
+- Pending.
+- Confirmed.
+- Cancelled.
+- Completed.
+- No-show.
+
+IMPORTANT BOOKING VALIDATION:
+
+- Prevent duplicate bookings.
+- Prevent booking unavailable time slots.
+- Recheck availability on the server.
+- Use concurrency-safe database transactions.
+- Prevent double-click duplicate submissions.
+- Save real booking data.
+- Never display false success messages.
+- Allow administrators to configure cancellation and rescheduling policies.
+
+Patients, doctors, receptionists, and administrators must see the appropriate appointment information according to their permissions.
+
+==================================================
+12. COMPLETE ADMIN DASHBOARD
+==================================================
+
+Create a premium Admin Dashboard for GOKUL HOSPITAL.
+
+Only authorized administrators may access this dashboard.
+
+ADMIN SIDEBAR:
+
+1. Overview.
+2. Patients.
+3. Doctors.
+4. Departments.
+5. Appointments.
+6. Manage Schedules.
+7. Receptionists.
+8. Hospital Services.
+9. Facilities.
+10. Health Packages.
+11. Medical Records Permissions.
+12. Patient Inquiries.
+13. Testimonials.
+14. Blogs.
+15. Gallery.
+16. Notifications.
+17. Reports.
+18. Analytics.
+19. Website Settings.
+20. Staff Management.
+21. Roles and Permissions.
+22. Audit Logs.
+23. Logout.
+
+ADMIN DASHBOARD OVERVIEW:
+
+Display database-driven:
+
+- Total Patients.
+- Total Doctors.
+- Total Receptionists.
+- Total Appointments.
+- Today's Appointments.
+- Pending Appointments.
+- Confirmed Appointments.
+- Completed Appointments.
+- Cancelled Appointments.
+
+ADMIN FUNCTIONALITIES:
+
+PATIENT MANAGEMENT:
+- View authorized patient records.
+- Search patients.
+- Edit permitted patient information.
+- Deactivate accounts when appropriate.
+
+DOCTOR MANAGEMENT:
+- Add Doctors.
+- Edit Doctors.
+- View Doctors.
+- Manage Specializations.
+- Manage Qualifications.
+- Manage Consultation Fees.
+- Manage Doctor Availability.
+
+DEPARTMENT MANAGEMENT:
+- Create Departments.
+- Edit Departments.
+- Delete or deactivate Departments.
+- Manage Department Images.
+- Manage Department Descriptions.
+
+APPOINTMENT MANAGEMENT:
+- View Appointments.
+- Confirm Appointments.
+- Cancel Appointments.
+- Reschedule Appointments.
+- Assign Doctors.
+- Search Appointments.
+- Filter by Date.
+- Filter by Status.
+
+WEBSITE MANAGEMENT:
+- Edit Hospital Name.
+- Upload Hospital Logo.
+- Edit Homepage Content.
+- Manage Banners.
+- Manage Images.
+- Update Contact Details.
+- Manage Opening Hours.
+- Update Services.
+- Manage Health Packages.
+- Manage Blogs.
+- Manage Gallery.
+
+REPORTS:
+- Appointment Reports.
+- Patient Reports.
+- Doctor Reports.
+- Department Reports.
+- Registration Reports.
+- Date-Based Reports.
+
+Provide search, pagination, filters, charts, and downloadable authorized reports.
+
+ADMIN SECURITY:
+
+- Use secure server-side role assignment.
+- Use Firebase Admin custom claims where available.
+- Never trust frontend role information alone.
+- Never allow users to create Admin accounts through public registration.
+- Keep sensitive administrator operations protected.
+
+==================================================
+13. RECEPTIONIST DASHBOARD
+==================================================
+
+Build a dedicated receptionist dashboard.
+
+FEATURES:
+
+1. Dashboard.
+2. Patient Registration (authorized only).
+3. Patient Search.
+4. Book Appointments.
+5. Today's Appointments.
+6. Upcoming Appointments.
+7. Appointment Confirmation.
+8. Appointment Cancellation.
+9. Appointment Rescheduling.
+10. Patient Inquiries.
+11. Notifications.
+12. Logout.
+
+Receptionists must only receive the permissions necessary for their work.
+
+Do not give unrestricted access to medical records or administrator configurations.
+
+==================================================
+14. HOSPITAL DEPARTMENTS
+==================================================
+
+Create professionally designed medical department pages.
+
+Include sample department categories:
+
+- Cardiology.
+- Neurology.
+- Orthopedics.
+- Pediatrics.
+- Gynecology.
+- Dermatology.
+- General Medicine.
+- General Surgery.
+- Dentistry.
+- Ophthalmology.
+- Oncology.
+- Radiology.
+- Emergency Medicine.
+- ENT.
+- Physiotherapy.
+
+Allow the administrator to add, edit, deactivate, and manage departments.
+
+Use realistic but clearly editable department descriptions.
+
+==================================================
+15. HOSPITAL SERVICES AND FACILITIES
+==================================================
+
+Create detailed service pages for:
+
+- Emergency Care.
+- Outpatient Department (OPD).
+- Inpatient Services.
+- Diagnostic Services.
+- Laboratory Services.
+- Pharmacy Services.
+- Ambulance Services.
+- Health Checkups.
+- Preventive Healthcare.
+- Surgical Services.
+- Patient Support Services.
+
+Create facilities pages for services and facilities actually offered by the hospital.
+
+All content must be manageable from the admin panel.
+
+Do not falsely advertise medical facilities that have not been verified by the hospital.
+
+==================================================
+16. NOTIFICATIONS AND COMMUNICATION
+==================================================
+
+Implement a database-connected notification system.
+
+NOTIFICATION EVENTS:
+
+- Patient Registration.
+- Appointment Booking.
+- Appointment Confirmation.
+- Appointment Cancellation.
+- Appointment Rescheduling.
+- Appointment Reminder.
+- Hospital Announcement.
+
+Features:
+
+- In-app notifications.
+- Read and unread status.
+- Notification history.
+- Role-specific notifications.
+
+OPTIONAL INTEGRATIONS:
+
+- Email Notifications.
+- SMS Notifications.
+- WhatsApp Notifications.
+- Push Notifications.
+
+Integrate only when the relevant third-party provider and credentials have been configured.
+
+Never claim that an email, SMS, OTP, or WhatsApp message has been sent unless the provider confirms it.
+
+==================================================
+17. FIRESTORE DATABASE ARCHITECTURE
+==================================================
+
+Create an organized, scalable Firestore database.
+
+Suggested Collections:
+
+1. users
+2. patientProfiles
+3. doctors
+4. departments
+5. appointments
+6. doctorAvailability
+7. receptionistProfiles
+8. hospitalServices
+9. facilities
+10. healthPackages
+11. notifications
+12. inquiries
+13. testimonials
+14. blogs
+15. gallery
+16. medicalRecords
+17. labReports
+18. prescriptions
+19. websiteSettings
+20. auditLogs
+
+DATABASE REQUIREMENTS:
+
+- Unique document IDs.
+- Created timestamps.
+- Updated timestamps.
+- Data validation.
+- Appropriate indexes.
+- Proper document references.
+- Secure database queries.
+- Pagination.
+- Error handling.
+- Soft deletion where appropriate.
+- Reliable relationship management.
+- Data consistency.
+
+Implement actual Firestore Security Rules.
+
+SECURITY PERMISSIONS:
+
+PATIENT:
+Can access only their own permitted information.
+
+DOCTOR:
+Can access only their assigned appointments and authorized patient records.
+
+RECEPTIONIST:
+Can access operational patient and appointment information according to permissions.
+
+ADMIN:
+Can access authorized hospital management features.
+
+PUBLIC VISITOR:
+Can access only approved public website information.
+
+All sensitive operations must be validated on the server.
+
+==================================================
+18. SECURITY AND PATIENT PRIVACY
+==================================================
+
+Protect the Gokul Hospital website and sensitive data.
+
+Implement:
+
+- Firebase Authentication.
+- Role-Based Access Control.
+- Protected Routes.
+- Secure API Endpoints.
+- Firestore Security Rules.
+- Server-Side Authorization.
+- Input Validation.
+- Input Sanitization.
+- Secure File Uploads.
+- File Type Validation.
+- File Size Restrictions.
+- Rate Limiting.
+- Safe Error Handling.
+- Environment Variables.
+- HTTPS Deployment.
+- Audit Logs.
+- Consent Management.
+- Data Minimization.
+- Secure Access to Medical Records.
+
+Never expose:
+
+- Passwords.
+- Private API Secrets.
+- Sensitive Patient Information.
+- Medical Records.
+- Internal Credentials.
+
+Do not store payment card details.
+
+Do not claim legal or regulatory compliance without an independent review.
+
+The hospital must obtain the appropriate privacy, cybersecurity, and legal review before using the system with real patient information.
+
+==================================================
+19. HEALTH PACKAGES AND LAB REPORTS
+==================================================
+
+HEALTH PACKAGES:
+
+- Package Listing.
+- Package Details.
+- Included Tests.
+- Pricing.
+- Package Inquiry.
+- Booking Request.
+- Admin Management.
+
+LAB REPORTS:
+
+- Secure File Upload.
+- Patient-Specific Access.
+- Report Listing.
+- Download Reports.
+- Upload History.
+- Authorization Checks.
+
+PRESCRIPTIONS:
+
+- Doctor-Authorized Prescriptions.
+- Patient-Specific Access.
+- Prescription History.
+- Secure Document Management.
+
+MEDICAL RECORDS:
+
+- Authorized Medical History.
+- Secure Records.
+- Role-Based Access.
+- Audit Logging.
+
+These modules must remain properly permission-controlled and must only be enabled for actual hospital workflows.
+
+==================================================
+20. PAYMENT GATEWAY INTEGRATION
+==================================================
+
+Prepare an optional secure payment module.
+
+Use Razorpay or another suitable Indian payment gateway after the hospital provides actual credentials and approves the integration.
+
+FUNCTIONALITIES:
+
+- Consultation Fee Payment.
+- Health Package Payment.
+- Payment Order Creation.
+- Server-Side Payment Verification.
+- Webhook Verification.
+- Payment Status.
+- Transaction Reference.
+- Payment History.
+- Failed Payment Handling.
+
+Use sandbox mode for testing first.
+
+Never display successful payment status without a verified gateway response.
+
+If credentials are missing, keep payment functionality disabled and clearly explain the remaining setup.
+
+==================================================
+21. GEMINI AI HOSPITAL ASSISTANT
+==================================================
+
+Prepare an optional Gemini-powered Gokul Hospital AI Assistant.
+
+Features:
+
+- Hospital Information.
+- Department Information.
+- Doctor Directory Assistance.
+- Appointment Navigation.
+- General Hospital FAQs.
+- Hospital Services Information.
+
+Use secure server-side Gemini API calls.
+
+The assistant must not:
+
+- Diagnose diseases.
+- Prescribe medication.
+- Replace a qualified doctor.
+- Pretend to provide emergency treatment.
+- Make unverified medical claims.
+
+For emergencies, guide users to the hospital's verified emergency contact or appropriate local emergency services.
+
+Clearly explain that the AI assistant does not replace professional medical advice.
+
+==================================================
+22. SEO, ACCESSIBILITY AND PERFORMANCE
+==================================================
+
+SEO:
+
+- Unique Page Titles.
+- Meta Descriptions.
+- Clean URLs.
+- Sitemap.xml.
+- Robots.txt.
+- Open Graph Tags.
+- Appropriate Structured Data.
+- Optimized Images.
+
+ACCESSIBILITY:
+
+- Semantic HTML.
+- Keyboard Navigation.
+- Proper Form Labels.
+- Accessible Buttons.
+- Good Color Contrast.
+- Alternative Text.
+- Visible Focus Indicators.
+- Responsive Font Sizes.
+
+PERFORMANCE:
+
+- Lazy Loading.
+- Optimized Images.
+- Reusable Components.
+- Efficient Database Queries.
+- Pagination.
+- Loading Screens.
+- Skeleton Loaders.
+- Error Screens.
+- Mobile Optimization.
+
+==================================================
+23. PROFESSIONAL PROJECT STRUCTURE
+==================================================
+
+Organize the project professionally.
+
+Suggested structure:
+
+src/
+  components/
+  layouts/
+  pages/
+  features/
+  hooks/
+  context/
+  services/
+  lib/
+  utils/
+  types/
+  styles/
+
+server/
+  routes/
+  controllers/
+  services/
+  middleware/
+  config/
+
+Also create:
+
+- Firebase configuration.
+- Firestore Security Rules.
+- Firestore Indexes.
+- Environment Variables Example.
+- README.md.
+- Installation Instructions.
+- Testing Documentation.
+- Deployment Instructions.
+- Test Files.
+
+Use reusable components, clean TypeScript code, and proper architecture.
+
+Do not put the entire application into one component or one source file.
+
+==================================================
+24. COMPLETE FUNCTIONALITY REQUIREMENTS
+==================================================
+
+EVERY visible feature must function correctly.
+
+Verify:
+
+- Login.
+- Register.
+- Logout.
+- Forgot Password.
+- Protected Pages.
+- Patient Dashboard.
+- Doctor Dashboard.
+- Admin Dashboard.
+- Receptionist Dashboard.
+- Doctor Search.
+- Department Search.
+- Appointment Booking.
+- Appointment Cancellation.
+- Appointment Rescheduling.
+- Availability Management.
+- Database Read Operations.
+- Database Write Operations.
+- Dashboard Statistics.
+- Form Validation.
+- Notifications.
+- Search.
+- Filters.
+- File Uploads.
+- User Permissions.
+- Responsive Navigation.
+
+Do not create buttons without real actions.
+
+Do not use fake login systems.
+
+Do not present temporary arrays as the real database.
+
+Do not show hardcoded statistics as live information.
+
+Do not display successful operations if backend operations fail.
+
+Never remove existing working functionality while developing additional features.
+
+==================================================
+25. COMPLETE APPLICATION TESTING AND DEBUGGING
+==================================================
+
+Act as a professional software QA team.
+
+Run and verify the complete application.
+
+TEST:
+
+1. Frontend Application.
+2. Backend Server.
+3. Database Connection.
+4. Firebase Authentication.
+5. Registration.
+6. Login.
+7. Logout.
+8. Password Reset.
+9. Patient Dashboard.
+10. Doctor Dashboard.
+11. Admin Dashboard.
+12. Receptionist Dashboard.
+13. Appointment Booking.
+14. Duplicate Appointment Prevention.
+15. Appointment Cancellation.
+16. Appointment Rescheduling.
+17. Doctor Availability.
+18. Database Read and Write.
+19. Security Rules.
+20. Role-Based Permissions.
+21. Protected Routes.
+22. Form Validation.
+23. Search and Filters.
+24. Notifications.
+25. Responsive Mobile Layout.
+26. Image Upload.
+27. Navigation Links.
+28. Build Process.
+29. Console Errors.
+30. Backend Errors.
+
+WHEN AN ERROR OCCURS:
+
+1. Identify the exact problem.
+2. Inspect the relevant files.
+3. Find the actual cause.
+4. Fix the source code.
+5. Run the affected test again.
+6. Verify the correction.
+7. Check for other related problems.
+
+Do not simply tell me to fix errors manually.
+
+Fix errors directly in the project whenever the environment permits.
+
+Do not claim that something was tested successfully unless the test actually ran.
+
+==================================================
+26. FINAL PROJECT COMPLETION CHECKLIST
+==================================================
+
+Before completing the project, verify:
+
+[ ] Gokul Hospital Branding.
+[ ] Professional Logo.
+[ ] Complete Homepage.
+[ ] Responsive Header.
+[ ] Responsive Footer.
+[ ] Complete Frontend.
+[ ] Complete Backend.
+[ ] Database Connection.
+[ ] Firebase Authentication.
+[ ] Patient Registration.
+[ ] Patient Login.
+[ ] Patient Dashboard.
+[ ] Doctor Dashboard.
+[ ] Admin Dashboard.
+[ ] Receptionist Dashboard.
+[ ] Doctor Management.
+[ ] Department Management.
+[ ] Appointment Booking.
+[ ] Appointment Cancellation.
+[ ] Appointment Rescheduling.
+[ ] Availability Management.
+[ ] Database Security Rules.
+[ ] Role-Based Permissions.
+[ ] Notifications.
+[ ] Search and Filters.
+[ ] All Essential Website Pages.
+[ ] Responsive Mobile Design.
+[ ] SEO.
+[ ] Error Handling.
+[ ] Application Testing.
+[ ] Build Verification.
+[ ] Documentation.
+[ ] Deployment Preparation.
+
+Do not mark a feature complete merely because its UI has been created.
+
+==================================================
+27. FINAL INSTRUCTIONS — MOST IMPORTANT
+==================================================
+
+You must build the entire GOKUL HOSPITAL project yourself inside Google AI Studio.
+
+I want the actual website, not just instructions.
+
+Do everything possible within the current environment:
+
+- Create the complete frontend.
+- Create the backend.
+- Configure the database.
+- Integrate Firebase.
+- Implement authentication.
+- Create all website pages.
+- Build patient management.
+- Build doctor management.
+- Build appointment booking.
+- Build admin management.
+- Build receptionist management.
+- Implement permissions.
+- Integrate notifications where configured.
+- Create professional dashboards.
+- Implement responsive designs.
+- Run tests.
+- Fix errors.
+- Verify the final build.
+
+Do not stop after creating the homepage.
+
+Do not stop after the first generation.
+
+Continue implementing and testing the complete application.
+
+If you need Firebase approval, API credentials, external service access, payment gateway credentials, or any manual configuration, clearly tell me what is needed. Never invent credentials or pretend an integration is complete.
+
+Continue developing everything that does not depend on missing external setup.
+
+Do not delete working files or functionality unnecessarily.
+
+==================================================
+28. FINAL DELIVERY REPORT
+==================================================
+
+After completing development, provide a detailed final report containing:
+
+1. Project Name: GOKUL HOSPITAL.
+2. Project Overview.
+3. All Completed Website Pages.
+4. All Implemented Features.
+5. Frontend Technology.
+6. Backend Technology.
+7. Database Architecture.
+8. Firebase Authentication Status.
+9. Database Security Status.
+10. Patient Dashboard Status.
+11. Doctor Dashboard Status.
+12. Admin Dashboard Status.
+13. Receptionist Dashboard Status.
+14. Appointment Booking Status.
+15. Testing Results.
+16. Errors Found and Fixed.
+17. Remaining Issues.
+18. Missing Credentials or Manual Configurations.
+19. Production Readiness.
+20. Exact Deployment Steps.
+
+Clearly distinguish completed, tested, partially configured, and untested features.
+
+==================================================
+MY FINAL EXPECTATION
+==================================================
+
+Build a PREMIUM, PROFESSIONAL, MODERN, BEAUTIFUL, FULLY RESPONSIVE, DATABASE-CONNECTED, FULL-STACK HOSPITAL WEBSITE FOR:
+
+# GOKUL HOSPITAL
+
+I want a complete hospital website with:
+
+- Frontend.
+- Backend.
+- Database.
+- Login.
+- Registration.
+- Patient Portal.
+- Doctor Portal.
+- Admin Panel.
+- Receptionist Panel.
+- Appointment Booking.
+- Doctor Availability.
+- Medical Departments.
+- Hospital Services.
+- Notifications.
+- Patient Management.
+- Doctor Management.
+- Security.
+- Testing.
+- Debugging.
+- Deployment Preparation.
+
+I want every important feature implemented properly.
+
+Do not leave unfinished pages, disconnected buttons, fake authentication, incomplete database integration, or hidden errors.
+
+Build the actual GOKUL HOSPITAL application now.
+
+START BUILDING THE COMPLETE PROJECT. DO NOT STOP AT PLANNING OR DESIGNING.
